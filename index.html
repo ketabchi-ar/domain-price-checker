@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>سامانه هوشمند استعلام قیمت و وضعیت دامنه | تعرفه تومانی ایران‌سرور</title>
-    <meta name="description" content="ابزار آنلاین بررسی آزاد بودن دامنه در بیش از ۴۰۰ پسوند با تعرفه رسمی تومانی و چندین موتور موازی">
+    <title>سامانه هوشمند استعلام دامنه و راهنمای راه‌اندازی وب‌سایت</title>
+    <meta name="description" content="ابزار آنلاین بررسی آزاد بودن دامنه در ۴۳۹ پسوند با تعرفه رسمی تومانی و پیشنهادات راه‌اندازی وب‌سایت">
     <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
     <style>
         :root {
             --bg: #090d16;
             --surface: #111827;
-            --surface-hover: #1f293d;
+            --surface-card: #182235;
+            --surface-hover: #1f2d47;
             --border: #243046;
             --primary: #3b82f6;
             --primary-glow: rgba(59, 130, 246, 0.4);
@@ -40,13 +41,13 @@
 
         .container {
             width: 100%;
-            max-width: 1200px;
+            max-width: 1240px;
         }
 
         header {
             text-align: center;
-            margin-bottom: 30px;
-            padding: 36px 20px;
+            margin-bottom: 25px;
+            padding: 32px 20px;
             background: radial-gradient(circle at 50% 0%, #1e1b4b 0%, #0f172a 100%);
             border-radius: 24px;
             border: 1px solid rgba(99, 102, 241, 0.2);
@@ -54,9 +55,9 @@
         }
 
         h1 {
-            font-size: 2.3rem;
+            font-size: 2.2rem;
             font-weight: 900;
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             background: linear-gradient(135deg, #60a5fa 0%, #c084fc 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -65,7 +66,7 @@
         .header-desc {
             color: var(--text-muted);
             font-size: 1.05rem;
-            max-width: 680px;
+            max-width: 700px;
             margin: 0 auto;
         }
 
@@ -147,36 +148,6 @@
             display: none;
         }
 
-        .quick-chips {
-            display: flex;
-            gap: 8px;
-            margin-top: 14px;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        .chip-label {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-
-        .chip {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            cursor: pointer;
-            direction: ltr;
-            transition: all 0.2s;
-        }
-
-        .chip:hover {
-            background: rgba(59, 130, 246, 0.2);
-            border-color: var(--primary);
-            color: #60a5fa;
-        }
-
         /* Progress Bar */
         .progress-box {
             display: none;
@@ -243,7 +214,153 @@
             color: var(--text-muted);
         }
 
-        /* Filter & Action Toolbar */
+        /* Ecosystem Recommendations Section */
+        .recommendations-section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 24px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+        }
+
+        .rec-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 18px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .rec-title {
+            font-size: 1.25rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #f8fafc;
+        }
+
+        .rec-tag {
+            background: rgba(59, 130, 246, 0.15);
+            color: #60a5fa;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 600;
+        }
+
+        .rec-categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+        }
+
+        .rec-category-box {
+            background: var(--surface-card);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .rec-cat-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #cbd5e1;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .partners-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .partner-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #0b0f19;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 10px 14px;
+            color: var(--text);
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .partner-btn:hover {
+            background: var(--surface-hover);
+            border-color: var(--primary);
+            transform: translateX(-3px);
+        }
+
+        .partner-left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .partner-logo {
+            width: 30px;
+            height: 30px;
+            border-radius: 8px;
+            background: #1e293b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            font-size: 0.75rem;
+            font-weight: bold;
+            color: #94a3b8;
+            flex-shrink: 0;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .partner-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .partner-info {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+        }
+
+        .partner-name {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #f1f5f9;
+        }
+
+        .partner-desc {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .partner-arrow {
+            font-size: 0.85rem;
+            color: #64748b;
+            transition: color 0.2s;
+        }
+
+        .partner-btn:hover .partner-arrow {
+            color: var(--primary);
+        }
+
+        /* Toolbar */
         .toolbar {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -353,9 +470,6 @@
             text-align: left;
             font-weight: 700;
             color: #fff;
-            display: flex;
-            align-items: center;
-            gap: 8px;
         }
 
         .badge {
@@ -378,32 +492,71 @@
             border: 1px solid rgba(239, 68, 68, 0.3);
         }
 
-        .badge-checking {
-            background: rgba(245, 158, 11, 0.15);
-            color: #fbbf24;
-            border: 1px solid rgba(245, 158, 11, 0.3);
-        }
-
         .price-text {
             color: #38bdf8;
             font-weight: 700;
             font-size: 1rem;
         }
 
-        .btn-register {
+        .btn-register-dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .btn-register-main {
             background: rgba(59, 130, 246, 0.15);
             color: #60a5fa;
             border: 1px solid rgba(59, 130, 246, 0.3);
             padding: 6px 14px;
             border-radius: 8px;
             font-size: 0.85rem;
+            cursor: pointer;
             text-decoration: none;
             transition: all 0.2s;
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
         }
 
-        .btn-register:hover {
+        .btn-register-main:hover {
             background: var(--primary);
+            color: #fff;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            margin-top: 4px;
+            background: #0f172a;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 8px;
+            min-width: 220px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            z-index: 50;
+        }
+
+        .btn-register-dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+            border-radius: 8px;
+            transition: background 0.15s;
+            cursor: pointer;
+        }
+
+        .dropdown-item:hover {
+            background: var(--surface-hover);
             color: #fff;
         }
 
@@ -419,9 +572,9 @@
 <body>
     <div class="container">
         <header>
-            <h1>⚡ سامانه هوشمند استعلام قیمت و ثبت دامنه</h1>
+            <h1>⚡ سامانه هوشمند استعلام دامنه و راه‌اندازی سایت</h1>
             <p class="header-desc">
-                بررسی آنی وضعیت در دسترس بودن دامنه با ۴۳۹ پسوند بین‌المللی و ایرانی بر اساس تعرفه رسمی ایران‌سرور (IranServer) با موتورهای جستجوی موازی و بدون محدودیت
+                بررسی آنی وضعیت در دسترس بودن دامنه در ۴۳۹ پسوند بر اساس تعرفه رسمی ایران‌سرور همراه با پیشنهادهای تخصصی هاست، قالب، درگاه پرداخت و پنل پیامکی
             </p>
         </header>
 
@@ -429,21 +582,12 @@
         <div class="search-container">
             <div class="search-row">
                 <div class="input-wrapper">
-                    <input type="text" id="domainInput" class="input-domain" placeholder="نام دامنه یا برند مورد نظرتان را وارد کنید (مثلاً: novin یا digikala)..." value="">
+                    <input type="text" id="domainInput" class="input-domain" placeholder="نام دامنه یا برند مورد نظرتان را بنویسید (مثلاً: novin یا digikala)...">
                 </div>
                 <button id="searchBtn" class="btn-search" onclick="startScan()">
                     <span>🔍 استعلام قیمت و وضعیت</span>
                 </button>
                 <button id="stopBtn" class="btn-stop" onclick="stopScan()">توقف ⏹</button>
-            </div>
-
-            <div class="quick-chips">
-                <span class="chip-label">پیشنهادات سریع:</span>
-                <span class="chip" onclick="quickFill('bartan')">bartan</span>
-                <span class="chip" onclick="quickFill('techno')">techno</span>
-                <span class="chip" onclick="quickFill('shopfa')">shopfa</span>
-                <span class="chip" onclick="quickFill('hyper')">hyper</span>
-                <span class="chip" onclick="quickFill('payam')">payam</span>
             </div>
 
             <!-- Progress Bar -->
@@ -490,10 +634,171 @@
             </div>
         </div>
 
+        <!-- Ecosystem Recommendations (Categorized with Cloaked Redirects) -->
+        <div class="recommendations-section">
+            <div class="rec-header">
+                <div class="rec-title">
+                    <span>🚀 جعبه‌ابزار پیشنهادی راه‌اندازی کسب‌وکار آنلاین</span>
+                </div>
+                <span class="rec-tag">خدمات منتخب و معتبر</span>
+            </div>
+
+            <div class="rec-categories">
+                <!-- Category 1: Hosting & Infrastructure -->
+                <div class="rec-category-box">
+                    <div class="rec-cat-title">
+                        <span>🏢 خرید هاست، سرور و ثبت دامنه</span>
+                    </div>
+                    <div class="partners-list">
+                        <div class="partner-btn" onclick="openPartner('limoo')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=limoo.host&sz=64" alt="لیموهاست">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">لیمو هاست</span>
+                                    <span class="partner-desc">هاست ابری پرسرعت مخصوص وردپرس</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+
+                        <div class="partner-btn" onclick="openPartner('mihan')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=mihanwebhost.com&sz=64" alt="میهن‌وب‌هاست">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">میهن وب هاست</span>
+                                    <span class="partner-desc">ثبت انواع دامنه و هاست اقتصادی</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+
+                        <div class="partner-btn" onclick="openPartner('faraso')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=faraso.org&sz=64" alt="فراسو">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">فراسو سامانه امید</span>
+                                    <span class="partner-desc">ثبت پسوندهای بین‌المللی و سرور ابری</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2: Themes & Plugins -->
+                <div class="rec-category-box">
+                    <div class="rec-cat-title">
+                        <span>🎨 افزونه و قالب وردپرس</span>
+                    </div>
+                    <div class="partners-list">
+                        <div class="partner-btn" onclick="openPartner('zhaket')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=zhaket.com&sz=64" alt="ژاکت">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">ژاکت (Zhaket)</span>
+                                    <span class="partner-desc">مارکت معتبر قالب و پلاگین ایرانی</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+
+                        <div class="partner-btn" onclick="openPartner('rtltheme')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=rtl-theme.com&sz=64" alt="راست‌چین">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">راست چین</span>
+                                    <span class="partner-desc">بزرگترین مرجع قالب‌های آماده وبسایت</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3: Payment Gateway & SMS -->
+                <div class="rec-category-box">
+                    <div class="rec-cat-title">
+                        <span>💳 پرداخت و ارتباط با مشتری</span>
+                    </div>
+                    <div class="partners-list">
+                        <div class="partner-btn" onclick="openPartner('zarinpal')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=zarinpal.com&sz=64" alt="زرین‌پال">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">زرین‌پال</span>
+                                    <span class="partner-desc">درگاه پرداخت اینترنتی هوشمند و سریع</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+
+                        <div class="partner-btn" onclick="openPartner('smsir')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=sms.ir&sz=64" alt="SMS.ir">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">پنل پیامکی SMS.ir</span>
+                                    <span class="partner-desc">ارسال آنی پیامک کد تایید (OTP)</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 4: Monetization & Products -->
+                <div class="rec-category-box">
+                    <div class="rec-cat-title">
+                        <span>📈 کسب درآمد و تامین محصول</span>
+                    </div>
+                    <div class="partners-list">
+                        <div class="partner-btn" onclick="openPartner('memarket')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=memarket24.ir&sz=64" alt="می‌مارکت">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">می مارکت</span>
+                                    <span class="partner-desc">سیستم همکاری در فروش کالا و فروشگاه‌ساز</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+
+                        <div class="partner-btn" onclick="openPartner('iranketab')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=iranketab.ir&sz=64" alt="ایران‌کتاب">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">ایران کتاب</span>
+                                    <span class="partner-desc">تامین و همکاری در فروش کتاب و محصولات فرهنگی</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Toolbar -->
         <div class="toolbar">
             <div class="filter-group">
-                <button class="filter-btn active" onclick="setFilter('all', this)">همه (439)</button>
+                <button class="filter-btn active" onclick="setFilter('all', this)">همه پسوندها (۴۳۹)</button>
                 <button class="filter-btn" onclick="setFilter('available', this)">فقط آزادها</button>
                 <button class="filter-btn" onclick="setFilter('taken', this)">فقط ثبت‌شده‌ها</button>
                 <button class="filter-btn" onclick="setFilter('popular', this)">محبوب‌ترین‌ها</button>
@@ -546,19 +851,35 @@
 
         const POPULAR_TLDS = ['.ir', '.com', '.net', '.org', '.co', '.io', '.site', '.online', '.store', '.shop', '.me', '.tech', '.info', '.biz', '.xyz', '.app', '.dev', '.ai'];
 
+        // Cloaked Partner Target URLs (Dispatched via clean local route)
+        const PARTNERS = {
+            'limoo': 'https://panel.limoo.host/aff.php?aff=25973',
+            'mihan': 'https://mihanwebhost.com/my/referrers_confirm.php?code=mwh-867b3',
+            'faraso': 'https://cp.faraso.org/aff.php?aff=475',
+            'zhaket': 'https://www.zhaket.com/?affid=AF-6139b6815b83f',
+            'rtltheme': 'https://rtl-theme.com/?aff=roshdmedia',
+            'zarinpal': 'https://next.zarinpal.com/auth/register?ref_id=7EZMUd',
+            'smsir': 'https://app.sms.ir/auth/sign-up?ref=18LGJ',
+            'memarket': 'https://aff.memarket24.ir/signup?s=151559',
+            'iranketab': 'https://www.iranketab.ir/c/903f21',
+            'iranserver': 'https://hub.iranserver.com/cart.php?a=add&domain=register'
+        };
+
+        // Open partner via direct clean trigger without displaying target URL
+        function openPartner(key, extraParam = '') {
+            const url = PARTNERS[key];
+            if (!url) return;
+            const fullUrl = extraParam ? `${url}&query=${encodeURIComponent(extraParam)}` : url;
+            window.open(fullUrl, '_blank', 'noopener,noreferrer');
+        }
+
         document.getElementById('domainInput').addEventListener('keypress', function(e) {
             if (e.key === 'Enter') startScan();
         });
 
-        function quickFill(val) {
-            document.getElementById('domainInput').value = val;
-            startScan();
-        }
-
         // Multi-engine availability checker with fallbacks
         async function checkDomainStatus(domain, tld) {
             if (tld === '.ir') {
-                // IRNIC SOA/NS query via DoH
                 try {
                     const r = await fetch(`https://dns.google/resolve?name=${domain}&type=NS`);
                     const data = await r.json();
@@ -728,9 +1049,33 @@
                     ? `<span class="badge badge-free">✅ آزاد و قابل ثبت</span>`
                     : `<span class="badge badge-taken">❌ ثبت‌شده</span>`;
                 
-                const actionBtn = item.available 
-                    ? `<a class="btn-register" href="https://hub.iranserver.com/cart.php?a=add&domain=register&query=${item.domain}" target="_blank">خرید در ایران‌سرور ↗</a>`
-                    : `<span style="color: var(--text-muted); font-size: 0.85rem;">اشغال</span>`;
+                let actionBtn = '';
+                if (item.available) {
+                    actionBtn = `
+                        <div class="btn-register-dropdown">
+                            <span class="btn-register-main" onclick="openPartner('limoo', '${item.domain}')">
+                                <span>ثبت سریع</span>
+                                <span style="font-size: 0.75rem;">▼</span>
+                            </span>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-item" onclick="openPartner('limoo', '${item.domain}')">
+                                    <span>🍋 ثبت در لیمو هاست</span>
+                                </div>
+                                <div class="dropdown-item" onclick="openPartner('mihan', '${item.domain}')">
+                                    <span>🌐 ثبت در میهن‌وب‌هاست</span>
+                                </div>
+                                <div class="dropdown-item" onclick="openPartner('faraso', '${item.domain}')">
+                                    <span>🚀 ثبت در فراسو سامانه</span>
+                                </div>
+                                <div class="dropdown-item" onclick="openPartner('iranserver', '${item.domain}')">
+                                    <span>🇮🇷 ثبت در ایران‌سرور</span>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    actionBtn = `<span style="color: var(--text-muted); font-size: 0.85rem;">غیرقابل ثبت</span>`;
+                }
 
                 return `
                     <tr>
@@ -765,11 +1110,6 @@
             link.click();
             document.body.removeChild(link);
         }
-
-        // Ready state on load
-        window.addEventListener('DOMContentLoaded', () => {
-            // Wait for user input
-        });
     </script>
 </body>
 </html>
