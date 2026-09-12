@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سامانه هوشمند استعلام قیمت و وضعیت دامنه | تعرفه تومانی ایران‌سرور</title>
+    <meta name="description" content="ابزار آنلاین بررسی آزاد بودن دامنه در بیش از ۴۰۰ پسوند با تعرفه رسمی تومانی و چندین موتور موازی">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <style>
+        :root {
+            --bg: #090d16;
+            --surface: #111827;
+            --surface-hover: #1f293d;
+            --border: #243046;
+            --primary: #3b82f6;
+            --primary-glow: rgba(59, 130, 246, 0.4);
+            --success: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --text: #f3f4f6;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 24px 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 36px 20px;
+            background: radial-gradient(circle at 50% 0%, #1e1b4b 0%, #0f172a 100%);
+            border-radius: 24px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+        }
+
+        h1 {
+            font-size: 2.3rem;
+            font-weight: 900;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, #60a5fa 0%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header-desc {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .search-container {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+        }
+
+        .search-row {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .input-wrapper {
+            flex: 1;
+            min-width: 260px;
+            position: relative;
+        }
+
+        .input-domain {
+            width: 100%;
+            padding: 16px 20px;
+            font-size: 1.15rem;
+            background: #0b0f19;
+            border: 2px solid var(--border);
+            border-radius: 14px;
+            color: #fff;
+            outline: none;
+            direction: ltr;
+            text-align: left;
+            transition: all 0.2s;
+        }
+
+        .input-domain:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 15px var(--primary-glow);
+        }
+
+        .btn-search {
+            background: linear-gradient(135deg, #2563eb, #4f46e5);
+            color: #fff;
+            border: none;
+            padding: 16px 36px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-search:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(59, 130, 246, 0.5);
+        }
+
+        .btn-search:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-stop {
+            background: #dc2626;
+            color: #fff;
+            border: none;
+            padding: 16px 20px;
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: 14px;
+            cursor: pointer;
+            display: none;
+        }
+
+        .quick-chips {
+            display: flex;
+            gap: 8px;
+            margin-top: 14px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .chip-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .chip {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            direction: ltr;
+            transition: all 0.2s;
+        }
+
+        .chip:hover {
+            background: rgba(59, 130, 246, 0.2);
+            border-color: var(--primary);
+            color: #60a5fa;
+        }
+
+        /* Progress Bar */
+        .progress-box {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            color: var(--text-muted);
+        }
+
+        .progress-track {
+            background: #0b0f19;
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #3b82f6, #10b981);
+            height: 100%;
+            width: 0%;
+            transition: width 0.15s ease-out;
+        }
+
+        /* Stats Cards */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 18px 20px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .stat-icon {
+            width: 46px;
+            height: 46px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+        }
+
+        .stat-val {
+            font-size: 1.6rem;
+            font-weight: 800;
+        }
+
+        .stat-lbl {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Filter & Action Toolbar */
+        .toolbar {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 16px 20px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: #0b0f19;
+            color: var(--text-muted);
+            border: 1px solid var(--border);
+            padding: 8px 14px;
+            border-radius: 10px;
+            font-size: 0.88rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        .tools-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .table-search {
+            background: #0b0f19;
+            border: 1px solid var(--border);
+            padding: 8px 14px;
+            border-radius: 10px;
+            color: #fff;
+            outline: none;
+            font-size: 0.88rem;
+        }
+
+        .btn-export {
+            background: #059669;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 10px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: background 0.2s;
+        }
+
+        .btn-export:hover {
+            background: #047857;
+        }
+
+        /* Results Table */
+        .table-wrapper {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: right;
+        }
+
+        th {
+            background: #0b0f19;
+            padding: 16px 18px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border);
+        }
+
+        td {
+            padding: 14px 18px;
+            font-size: 0.95rem;
+            border-bottom: 1px solid rgba(36, 48, 70, 0.5);
+        }
+
+        tr:hover td {
+            background: var(--surface-hover);
+        }
+
+        .domain-name {
+            direction: ltr;
+            text-align: left;
+            font-weight: 700;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .badge-free {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .badge-taken {
+            background: rgba(239, 68, 68, 0.15);
+            color: #f87171;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .badge-checking {
+            background: rgba(245, 158, 11, 0.15);
+            color: #fbbf24;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .price-text {
+            color: #38bdf8;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        .btn-register {
+            background: rgba(59, 130, 246, 0.15);
+            color: #60a5fa;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            transition: all 0.2s;
+            display: inline-block;
+        }
+
+        .btn-register:hover {
+            background: var(--primary);
+            color: #fff;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚡ سامانه هوشمند استعلام قیمت و ثبت دامنه</h1>
+            <p class="header-desc">
+                بررسی آنی وضعیت در دسترس بودن دامنه با ۴۳۹ پسوند بین‌المللی و ایرانی بر اساس تعرفه رسمی ایران‌سرور (IranServer) با موتورهای جستجوی موازی و بدون محدودیت
+            </p>
+        </header>
+
+        <!-- Search Box -->
+        <div class="search-container">
+            <div class="search-row">
+                <div class="input-wrapper">
+                    <input type="text" id="domainInput" class="input-domain" placeholder="نام دامنه یا برند را بنویسید (مثلاً: bartan یا digikala)..." value="bartan">
+                </div>
+                <button id="searchBtn" class="btn-search" onclick="startScan()">
+                    <span>🔍 استعلام قیمت و وضعیت</span>
+                </button>
+                <button id="stopBtn" class="btn-stop" onclick="stopScan()">توقف ⏹</button>
+            </div>
+
+            <div class="quick-chips">
+                <span class="chip-label">پیشنهادات سریع:</span>
+                <span class="chip" onclick="quickFill('bartan')">bartan</span>
+                <span class="chip" onclick="quickFill('techno')">techno</span>
+                <span class="chip" onclick="quickFill('shopfa')">shopfa</span>
+                <span class="chip" onclick="quickFill('hyper')">hyper</span>
+                <span class="chip" onclick="quickFill('payam')">payam</span>
+            </div>
+
+            <!-- Progress Bar -->
+            <div id="progressBox" class="progress-box">
+                <div class="progress-info">
+                    <span id="progressText">در حال اسکن پسوندها...</span>
+                    <span id="progressCount">0 / 439</span>
+                </div>
+                <div class="progress-track">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- KPI Cards -->
+        <div class="stats-row">
+            <div class="stat-card">
+                <div class="stat-icon" style="background: rgba(59, 130, 246, 0.15); color: #60a5fa;">🌐</div>
+                <div>
+                    <div id="totalCheckedCount" class="stat-val">0</div>
+                    <div class="stat-lbl">کل پسوندهای اسکن شده</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon" style="background: rgba(16, 185, 129, 0.15); color: #34d399;">✅</div>
+                <div>
+                    <div id="availableCount" class="stat-val" style="color: #34d399;">0</div>
+                    <div class="stat-lbl">دامنه‌های آزاد و قابل خرید</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon" style="background: rgba(239, 68, 68, 0.15); color: #f87171;">❌</div>
+                <div>
+                    <div id="takenCount" class="stat-val" style="color: #f87171;">0</div>
+                    <div class="stat-lbl">دامنه‌های ثبت‌شده (پر)</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon" style="background: rgba(245, 158, 11, 0.15); color: #fbbf24;">🏷</div>
+                <div>
+                    <div id="minPriceVal" class="stat-val" style="color: #fbbf24;">—</div>
+                    <div class="stat-lbl">کمترین قیمت ثبت (تومان)</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toolbar -->
+        <div class="toolbar">
+            <div class="filter-group">
+                <button class="filter-btn active" onclick="setFilter('all', this)">همه (439)</button>
+                <button class="filter-btn" onclick="setFilter('available', this)">فقط آزادها</button>
+                <button class="filter-btn" onclick="setFilter('taken', this)">فقط ثبت‌شده‌ها</button>
+                <button class="filter-btn" onclick="setFilter('popular', this)">محبوب‌ترین‌ها</button>
+                <button class="filter-btn" onclick="setFilter('cheap', this)">اقتصادی (زیر ۱ میلیون)</button>
+            </div>
+
+            <div class="tools-group">
+                <input type="text" id="filterInput" class="table-search" placeholder="فیلتر نام پسوند..." onkeyup="renderTable()">
+                <button class="btn-export" onclick="exportCSV()">
+                    <span>📥 دانلود اکسل (CSV)</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Results Table -->
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>نام دامنه</th>
+                        <th>پسوند (TLD)</th>
+                        <th>وضعیت</th>
+                        <th>قیمت ثبت ۱ ساله (ایران‌سرور)</th>
+                        <th>قیمت تمدید سال‌های بعد</th>
+                        <th>اقدام</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr>
+                        <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 40px;">
+                            نام دامنه مورد نظرتان را در کادر بالا وارد کرده و دکمه استعلام را بزنید.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            طراحی شده با عشق • منبع تعرفه‌ها: تعرفه رسمی تومانی ایران‌سرور (IranServer.com) • استعلام با ۳ موتور هوشمند موازی
+        </footer>
+    </div>
+
+    <!-- Embedded IranServer TLD Dataset -->
+    <script src="tlds.js"></script>
+    <script>
+        let currentScanId = 0;
+        let isScanning = false;
+        let scanResults = [];
+        let activeFilter = 'all';
+
+        const POPULAR_TLDS = ['.ir', '.com', '.net', '.org', '.co', '.io', '.site', '.online', '.store', '.shop', '.me', '.tech', '.info', '.biz', '.xyz', '.app', '.dev', '.ai'];
+
+        document.getElementById('domainInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') startScan();
+        });
+
+        function quickFill(val) {
+            document.getElementById('domainInput').value = val;
+            startScan();
+        }
+
+        // Multi-engine availability checker with fallbacks
+        async function checkDomainStatus(domain, tld) {
+            if (tld === '.ir') {
+                // IRNIC SOA/NS query via DoH
+                try {
+                    const r = await fetch(`https://dns.google/resolve?name=${domain}&type=NS`);
+                    const data = await r.json();
+                    if (data.Status === 0 && data.Answer && data.Answer.length > 0) return { available: false, details: 'ثبت شده در ایرنیک' };
+                    if (data.Status === 2) return { available: false, details: 'دامنه فعال در ایرنیک' };
+                    if (data.Status === 3) return { available: true, details: 'آزاد' };
+                } catch(e) {}
+                return { available: false, details: 'ثبت شده' };
+            }
+
+            // Engine 1: Google DNS over HTTPS
+            try {
+                const res = await fetch(`https://dns.google/resolve?name=${domain}&type=NS`, { signal: AbortSignal.timeout(3000) });
+                if (res.ok) {
+                    const data = await res.json();
+                    if (data.Status === 0 && data.Answer && data.Answer.length > 0) {
+                        return { available: false, details: 'دارای DNS فعال' };
+                    } else if (data.Status === 3) {
+                        return { available: true, details: 'آزاد (NXDOMAIN)' };
+                    }
+                }
+            } catch (err) {}
+
+            // Engine 2: Cloudflare DNS over HTTPS
+            try {
+                const cfRes = await fetch(`https://cloudflare-dns.com/dns-query?name=${domain}&type=NS`, {
+                    headers: { 'Accept': 'application/dns-json' },
+                    signal: AbortSignal.timeout(3000)
+                });
+                if (cfRes.ok) {
+                    const cfData = await cfRes.json();
+                    if (cfData.Status === 0 && cfData.Answer && cfData.Answer.length > 0) {
+                        return { available: false, details: 'DNS فعال (Cloudflare)' };
+                    } else if (cfData.Status === 3) {
+                        return { available: true, details: 'آزاد (NXDOMAIN)' };
+                    }
+                }
+            } catch (err) {}
+
+            // Engine 3: ICANN RDAP Gateway
+            try {
+                const rdapRes = await fetch(`https://rdap.org/domain/${domain}`, { signal: AbortSignal.timeout(3500) });
+                if (rdapRes.status === 200) {
+                    return { available: false, details: 'ثبت شده در ریجستری (RDAP)' };
+                } else if (rdapRes.status === 404) {
+                    return { available: true, details: 'آزاد در ریجستری (RDAP 404)' };
+                }
+            } catch (err) {}
+
+            return { available: true, details: 'احتمالاً آزاد' };
+        }
+
+        async function startScan() {
+            let rawKeyword = document.getElementById('domainInput').value.trim().toLowerCase();
+            if (!rawKeyword) return;
+            rawKeyword = rawKeyword.replace(/^(https?:\/\/)?(www\.)?/, '').split('.')[0];
+            document.getElementById('domainInput').value = rawKeyword;
+
+            currentScanId++;
+            const thisScan = currentScanId;
+            isScanning = true;
+            scanResults = [];
+
+            document.getElementById('searchBtn').disabled = true;
+            document.getElementById('stopBtn').style.display = 'inline-block';
+            document.getElementById('progressBox').style.display = 'block';
+
+            // Reset Stats
+            document.getElementById('totalCheckedCount').innerText = '0';
+            document.getElementById('availableCount').innerText = '0';
+            document.getElementById('takenCount').innerText = '0';
+            document.getElementById('minPriceVal').innerText = '—';
+
+            const tldsList = window.IRANSERVER_TLDS || [];
+            const total = tldsList.length;
+            let processed = 0;
+            let freeCount = 0;
+            let takenCount = 0;
+            let minPrice = Infinity;
+
+            const BATCH_SIZE = 12;
+            for (let i = 0; i < total; i += BATCH_SIZE) {
+                if (!isScanning || currentScanId !== thisScan) break;
+                const batch = tldsList.slice(i, i + BATCH_SIZE);
+
+                await Promise.all(batch.map(async item => {
+                    const domain = `${rawKeyword}${item.tld}`;
+                    const statusRes = await checkDomainStatus(domain, item.tld);
+
+                    const priceNum = parseInt(item.register_price.replace(/,/g, '')) || 0;
+                    if (statusRes.available && priceNum > 0 && priceNum < minPrice) {
+                        minPrice = priceNum;
+                    }
+
+                    const record = {
+                        domain: domain,
+                        tld: item.tld,
+                        available: statusRes.available,
+                        price: item.register_price,
+                        renew_price: item.renew_price || item.register_price,
+                        details: statusRes.details
+                    };
+
+                    scanResults.push(record);
+                    processed++;
+                    if (statusRes.available) freeCount++;
+                    else takenCount++;
+                }));
+
+                // Update UI Progress
+                const percent = Math.round((processed / total) * 100);
+                document.getElementById('progressFill').style.width = percent + '%';
+                document.getElementById('progressCount').innerText = `${processed} / ${total}`;
+                document.getElementById('totalCheckedCount').innerText = processed;
+                document.getElementById('availableCount').innerText = freeCount;
+                document.getElementById('takenCount').innerText = takenCount;
+                if (minPrice !== Infinity) {
+                    document.getElementById('minPriceVal').innerText = minPrice.toLocaleString('fa-IR');
+                }
+
+                renderTable();
+            }
+
+            document.getElementById('searchBtn').disabled = false;
+            document.getElementById('stopBtn').style.display = 'none';
+            document.getElementById('progressText').innerText = 'اسکن پایان یافت!';
+            isScanning = false;
+        }
+
+        function stopScan() {
+            isScanning = false;
+            document.getElementById('searchBtn').disabled = false;
+            document.getElementById('stopBtn').style.display = 'none';
+            document.getElementById('progressText').innerText = 'اسکن توسط کاربر متوقف شد.';
+        }
+
+        function setFilter(filter, btn) {
+            activeFilter = filter;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderTable();
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('tableBody');
+            const searchKeyword = (document.getElementById('filterInput').value || '').toLowerCase().trim();
+
+            let filtered = scanResults.filter(item => {
+                if (activeFilter === 'available' && !item.available) return false;
+                if (activeFilter === 'taken' && item.available) return false;
+                if (activeFilter === 'popular' && !POPULAR_TLDS.includes(item.tld)) return false;
+                if (activeFilter === 'cheap') {
+                    const p = parseInt(item.price.replace(/,/g, '')) || 0;
+                    if (p > 1000000) return false;
+                }
+                if (searchKeyword && !item.domain.toLowerCase().includes(searchKeyword) && !item.tld.includes(searchKeyword)) return false;
+                return true;
+            });
+
+            if (filtered.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 30px;">هیچ رکوردی مطابق فیلتر یافت نشد.</td></tr>`;
+                return;
+            }
+
+            tbody.innerHTML = filtered.map(item => {
+                const badge = item.available 
+                    ? `<span class="badge badge-free">✅ آزاد و قابل ثبت</span>`
+                    : `<span class="badge badge-taken">❌ ثبت‌شده</span>`;
+                
+                const actionBtn = item.available 
+                    ? `<a class="btn-register" href="https://hub.iranserver.com/cart.php?a=add&domain=register&query=${item.domain}" target="_blank">خرید در ایران‌سرور ↗</a>`
+                    : `<span style="color: var(--text-muted); font-size: 0.85rem;">اشغال</span>`;
+
+                return `
+                    <tr>
+                        <td class="domain-name">${item.domain}</td>
+                        <td style="font-weight: bold; color: #93c5fd; direction: ltr; text-align: left;">${item.tld}</td>
+                        <td>${badge}</td>
+                        <td class="price-text">${item.price} تومان</td>
+                        <td class="price-text" style="color: #94a3b8; font-weight: normal;">${item.renew_price} تومان</td>
+                        <td>${actionBtn}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function exportCSV() {
+            if (scanResults.length === 0) {
+                alert('ابتدا استعلام دامنه را انجام دهید.');
+                return;
+            }
+            let csvContent = "\uFEFFنام دامنه,پسوند,وضعیت,قیمت ثبت (تومان),قیمت تمدید (تومان),توضیحات\n";
+            scanResults.forEach(r => {
+                const status = r.available ? "آزاد" : "ثبت‌شده";
+                csvContent += `"${r.domain}","${r.tld}","${status}","${r.price}","${r.renew_price}","${r.details}"\n`;
+            });
+
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.setAttribute("href", url);
+            link.setAttribute("download", `domain_results_${document.getElementById('domainInput').value}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Auto run on load for default keyword
+        window.addEventListener('DOMContentLoaded', () => {
+            startScan();
+        });
+    </script>
+</body>
+</html>
