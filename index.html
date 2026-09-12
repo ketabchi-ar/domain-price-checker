@@ -429,7 +429,7 @@
         <div class="search-container">
             <div class="search-row">
                 <div class="input-wrapper">
-                    <input type="text" id="domainInput" class="input-domain" placeholder="نام دامنه یا برند را بنویسید (مثلاً: bartan یا digikala)..." value="bartan">
+                    <input type="text" id="domainInput" class="input-domain" placeholder="نام دامنه یا برند مورد نظرتان را وارد کنید (مثلاً: novin یا digikala)..." value="">
                 </div>
                 <button id="searchBtn" class="btn-search" onclick="startScan()">
                     <span>🔍 استعلام قیمت و وضعیت</span>
@@ -766,9 +766,9 @@
             document.body.removeChild(link);
         }
 
-        // Auto run on load for default keyword
+        // Ready state on load
         window.addEventListener('DOMContentLoaded', () => {
-            startScan();
+            // Wait for user input
         });
     </script>
 </body>
