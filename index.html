@@ -312,17 +312,14 @@
         }
 
         .partner-logo {
-            width: 30px;
-            height: 30px;
+            width: 32px;
+            height: 32px;
             border-radius: 8px;
             background: #1e293b;
             display: flex;
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            font-size: 0.75rem;
-            font-weight: bold;
-            color: #94a3b8;
             flex-shrink: 0;
             border: 1px solid rgba(255, 255, 255, 0.08);
         }
@@ -560,12 +557,102 @@
             color: #fff;
         }
 
+        /* Analytics Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.75);
+            backdrop-filter: blur(4px);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .modal-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            max-width: 700px;
+            width: 100%;
+            max-height: 85vh;
+            overflow-y: auto;
+            padding: 24px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 12px;
+        }
+
+        .modal-title {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #60a5fa;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-close {
+            background: #1e293b;
+            color: #fff;
+            border: 1px solid var(--border);
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .analytics-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .analytics-table th, .analytics-table td {
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.9rem;
+        }
+
+        .analytics-table th {
+            background: #0b0f19;
+            color: var(--text-muted);
+        }
+
         footer {
             margin-top: 40px;
             text-align: center;
             color: var(--text-muted);
             font-size: 0.9rem;
             padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .admin-link {
+            color: #334155;
+            text-decoration: none;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .admin-link:hover {
+            color: #64748b;
         }
     </style>
 </head>
@@ -744,6 +831,19 @@
                             <span class="partner-arrow">↗</span>
                         </div>
 
+                        <div class="partner-btn" onclick="openPartner('paystar')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=paystar.ir&sz=64" alt="پی‌استار">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">پی‌استار (PayStar)</span>
+                                    <span class="partner-desc">درگاه پرداخت امن با تسویه سریع</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+
                         <div class="partner-btn" onclick="openPartner('smsir')">
                             <div class="partner-left">
                                 <div class="partner-logo">
@@ -759,12 +859,25 @@
                     </div>
                 </div>
 
-                <!-- Category 4: Monetization & Products -->
+                <!-- Category 4: Monetization & Marketing -->
                 <div class="rec-category-box">
                     <div class="rec-cat-title">
-                        <span>📈 کسب درآمد و تامین محصول</span>
+                        <span>📈 بازاریابی و کسب درآمد</span>
                     </div>
                     <div class="partners-list">
+                        <div class="partner-btn" onclick="openPartner('novinhub')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=novinhub.com&sz=64" alt="نوین‌هاب">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">نوین‌هاب (NovinHub)</span>
+                                    <span class="partner-desc">مدیریت و زمان‌بندی شبکه‌های اجتماعی</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+
                         <div class="partner-btn" onclick="openPartner('memarket')">
                             <div class="partner-left">
                                 <div class="partner-logo">
@@ -785,7 +898,7 @@
                                 </div>
                                 <div class="partner-info">
                                     <span class="partner-name">ایران کتاب</span>
-                                    <span class="partner-desc">تامین و همکاری در فروش کتاب و محصولات فرهنگی</span>
+                                    <span class="partner-desc">همکاری در فروش کتاب و کالای فرهنگی</span>
                                 </div>
                             </div>
                             <span class="partner-arrow">↗</span>
@@ -836,8 +949,40 @@
             </table>
         </div>
 
+        <!-- Hidden Admin Analytics Modal -->
+        <div id="analyticsModal" class="modal-overlay">
+            <div class="modal-card">
+                <div class="modal-header">
+                    <div class="modal-title">
+                        <span>📊 پنل آمار کلیک روی لینک‌ها و ارائه‌دهندگان</span>
+                    </div>
+                    <button class="btn-close" onclick="closeAnalytics()">✕</button>
+                </div>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;">
+                    شمارش کلیک‌ها بر اساس تعاملات کاربران و ثبت در پایگاه داده مرورگر (با قابلیت دانلود):
+                </p>
+                <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                    <button class="btn-export" onclick="exportAnalyticsCSV()">خروجی اکسل آمار</button>
+                    <button class="filter-btn" onclick="resetAnalytics()">پاکسازی آمار</button>
+                </div>
+                <table class="analytics-table">
+                    <thead>
+                        <tr>
+                            <th>نام سرویس</th>
+                            <th>کلید داخلی</th>
+                            <th>تعداد کلیک</th>
+                            <th>آخرین بازدید</th>
+                        </tr>
+                    </thead>
+                    <tbody id="analyticsTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
         <footer>
-            طراحی شده با عشق • منبع تعرفه‌ها: تعرفه رسمی تومانی ایران‌سرور (IranServer.com) • استعلام با ۳ موتور هوشمند موازی
+            <span>طراحی شده با عشق • منبع تعرفه‌ها: تعرفه رسمی تومانی ایران‌سرور (IranServer.com) • استعلام با ۳ موتور هوشمند موازی</span>
+            <span class="admin-link" onclick="openAnalyticsPrompt()">🔒 پنل آمار کلیک‌ها (کلید میانبر: Ctrl+Shift+A)</span>
         </footer>
     </div>
 
@@ -851,26 +996,113 @@
 
         const POPULAR_TLDS = ['.ir', '.com', '.net', '.org', '.co', '.io', '.site', '.online', '.store', '.shop', '.me', '.tech', '.info', '.biz', '.xyz', '.app', '.dev', '.ai'];
 
-        // Cloaked Partner Target URLs (Dispatched via clean local route)
+        // Partner metadata with clean names and cloaked targets
         const PARTNERS = {
-            'limoo': 'https://panel.limoo.host/aff.php?aff=25973',
-            'mihan': 'https://mihanwebhost.com/my/referrers_confirm.php?code=mwh-867b3',
-            'faraso': 'https://cp.faraso.org/aff.php?aff=475',
-            'zhaket': 'https://www.zhaket.com/?affid=AF-6139b6815b83f',
-            'rtltheme': 'https://rtl-theme.com/?aff=roshdmedia',
-            'zarinpal': 'https://next.zarinpal.com/auth/register?ref_id=7EZMUd',
-            'smsir': 'https://app.sms.ir/auth/sign-up?ref=18LGJ',
-            'memarket': 'https://aff.memarket24.ir/signup?s=151559',
-            'iranketab': 'https://www.iranketab.ir/c/903f21',
-            'iranserver': 'https://hub.iranserver.com/cart.php?a=add&domain=register'
+            'limoo': { name: 'لیمو هاست', url: 'https://panel.limoo.host/aff.php?aff=25973' },
+            'mihan': { name: 'میهن وب هاست', url: 'https://mihanwebhost.com/my/referrers_confirm.php?code=mwh-867b3' },
+            'faraso': { name: 'فراسو سامانه', url: 'https://cp.faraso.org/aff.php?aff=475' },
+            'zhaket': { name: 'ژاکت', url: 'https://www.zhaket.com/?affid=AF-6139b6815b83f' },
+            'rtltheme': { name: 'راست چین', url: 'https://rtl-theme.com/?aff=roshdmedia' },
+            'zarinpal': { name: 'زرین‌پال', url: 'https://next.zarinpal.com/auth/register?ref_id=7EZMUd' },
+            'paystar': { name: 'پی‌استار', url: 'https://my.paystar.ir/register/jk1w3' },
+            'smsir': { name: 'SMS.ir', url: 'https://app.sms.ir/auth/sign-up?ref=18LGJ' },
+            'novinhub': { name: 'نوین‌هاب', url: 'https://app.novinhub.com/signup?affiliateId=e974e4' },
+            'memarket': { name: 'می مارکت', url: 'https://aff.memarket24.ir/signup?s=151559' },
+            'iranketab': { name: 'ایران کتاب', url: 'https://www.iranketab.ir/c/903f21' },
+            'iranserver': { name: 'ایران‌سرور', url: 'https://hub.iranserver.com/cart.php?a=add&domain=register' }
         };
+
+        // Click Tracking Engine
+        function trackClick(key) {
+            try {
+                const stats = JSON.parse(localStorage.getItem('partner_click_stats') || '{}');
+                const now = new Date().toLocaleString('fa-IR');
+                if (!stats[key]) {
+                    stats[key] = { count: 0, lastClick: now };
+                }
+                stats[key].count += 1;
+                stats[key].lastClick = now;
+                localStorage.setItem('partner_click_stats', JSON.stringify(stats));
+            } catch (e) {}
+        }
 
         // Open partner via direct clean trigger without displaying target URL
         function openPartner(key, extraParam = '') {
-            const url = PARTNERS[key];
-            if (!url) return;
-            const fullUrl = extraParam ? `${url}&query=${encodeURIComponent(extraParam)}` : url;
+            const partner = PARTNERS[key];
+            if (!partner) return;
+
+            // Track the click event
+            trackClick(key);
+
+            const fullUrl = extraParam ? `${partner.url}&query=${encodeURIComponent(extraParam)}` : partner.url;
             window.open(fullUrl, '_blank', 'noopener,noreferrer');
+        }
+
+        // Keyboard shortcut: Ctrl + Shift + A for analytics modal
+        window.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === 'A' || e.key === 'a')) {
+                openAnalyticsModal();
+            }
+        });
+
+        function openAnalyticsPrompt() {
+            const pin = prompt('رمز عبور پنل آمار کلیک‌ها را وارد کنید (پیش‌فرض: 1234):');
+            if (pin === '1234' || pin === 'admin') {
+                openAnalyticsModal();
+            } else if (pin !== null) {
+                alert('رمز اشتباه است.');
+            }
+        }
+
+        function openAnalyticsModal() {
+            const modal = document.getElementById('analyticsModal');
+            const tbody = document.getElementById('analyticsTableBody');
+            const stats = JSON.parse(localStorage.getItem('partner_click_stats') || '{}');
+
+            let rows = '';
+            for (const [key, partner] of Object.entries(PARTNERS)) {
+                const count = stats[key] ? stats[key].count : 0;
+                const last = stats[key] ? stats[key].lastClick : '—';
+                rows += `
+                    <tr>
+                        <td style="font-weight: bold; color: #fff;">${partner.name}</td>
+                        <td style="direction: ltr; text-align: left; color: #94a3b8;">${key}</td>
+                        <td style="color: #38bdf8; font-weight: bold; font-size: 1.1rem;">${count}</td>
+                        <td style="color: #64748b; font-size: 0.85rem;">${last}</td>
+                    </tr>
+                `;
+            }
+            tbody.innerHTML = rows;
+            modal.style.display = 'flex';
+        }
+
+        function closeAnalytics() {
+            document.getElementById('analyticsModal').style.display = 'none';
+        }
+
+        function resetAnalytics() {
+            if (confirm('آیا از ریست کردن شمارنده کلیک‌ها مطمئن هستید؟')) {
+                localStorage.removeItem('partner_click_stats');
+                openAnalyticsModal();
+            }
+        }
+
+        function exportAnalyticsCSV() {
+            const stats = JSON.parse(localStorage.getItem('partner_click_stats') || '{}');
+            let csv = "\uFEFFنام سرویس,شناسه,تعداد کلیک,آخرین کلیک\n";
+            for (const [key, partner] of Object.entries(PARTNERS)) {
+                const count = stats[key] ? stats[key].count : 0;
+                const last = stats[key] ? stats[key].lastClick : '—';
+                csv += `"${partner.name}","${key}","${count}","${last}"\n`;
+            }
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = `clicks_analytics_${Date.now()}.csv`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
         }
 
         document.getElementById('domainInput').addEventListener('keypress', function(e) {
