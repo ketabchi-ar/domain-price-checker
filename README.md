@@ -1,6 +1,10 @@
 # ⚡ سامانه هوشمند استعلام قیمت و وضعیت دامنه (Domain Hunter)
 ### Multi-Engine Domain Availability & IranServer TLD Price Checker
 
+
+[![DevSponsors](https://img.shields.io/badge/DevSponsors-Verified_OSS-6366f1?style=for-the-badge&logo=github)](https://devsponsors.github.io)
+[![Sponsor](https://img.shields.io/badge/Sponsor-DevSponsors_Hub-emerald?style=for-the-badge&logo=github-sponsors)](https://devsponsors.github.io)
+
 یک ابزار کلاینت‌محور (Client-side)، پرسرعت و مدرن برای جستجو و استعلام آنی وضعیت ثبت دامنه‌ها در بیش از **۴۳۹ پسوند مختلف (TLD)** با تعرفه رسمی تومانی **ایران‌سرور (IranServer)**.
 
 ---
