@@ -434,14 +434,17 @@
             background: var(--surface);
             border: 1px solid var(--border);
             border-radius: 18px;
-            overflow: hidden;
+            overflow-x: auto;
+            overflow-y: visible;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            position: relative;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
             text-align: right;
+            position: relative;
         }
 
         th {
@@ -513,6 +516,7 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
+            user-select: none;
         }
 
         .btn-register-main:hover {
@@ -524,18 +528,17 @@
             display: none;
             position: absolute;
             left: 0;
-            top: 100%;
-            margin-top: 4px;
+            top: calc(100% + 4px);
             background: #0f172a;
-            border: 1px solid var(--border);
+            border: 1px solid #334155;
             border-radius: 12px;
             padding: 8px;
             min-width: 220px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-            z-index: 50;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.7);
+            z-index: 1000;
         }
 
-        .btn-register-dropdown:hover .dropdown-menu {
+        .dropdown-menu.show {
             display: block;
         }
 
@@ -543,10 +546,10 @@
             display: flex;
             align-items: center;
             gap: 8px;
-            padding: 8px 12px;
+            padding: 10px 12px;
             color: #cbd5e1;
             text-decoration: none;
-            font-size: 0.82rem;
+            font-size: 0.84rem;
             border-radius: 8px;
             transition: background 0.15s;
             cursor: pointer;
@@ -1038,7 +1041,23 @@
             window.open(fullUrl, '_blank', 'noopener,noreferrer');
         }
 
-        // Keyboard shortcut: Ctrl + Shift + A for analytics modal
+        function toggleDropdown(event, id) {
+            event.stopPropagation();
+            const targetMenu = document.getElementById(id);
+            const isCurrentlyShown = targetMenu.classList.contains('show');
+            // Close all open dropdowns
+            document.querySelectorAll('.dropdown-menu').forEach(m => m.classList.remove('show'));
+            if (!isCurrentlyShown) {
+                targetMenu.classList.add('show');
+            }
+        }
+
+        // Close dropdown when clicking anywhere else
+        window.addEventListener('click', function(e) {
+            if (!e.target.closest('.btn-register-dropdown')) {
+                document.querySelectorAll('.dropdown-menu').forEach(m => m.classList.remove('show'));
+            }
+        });
         window.addEventListener('keydown', function(e) {
             if ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === 'A' || e.key === 'a')) {
                 openAnalyticsModal();
@@ -1283,13 +1302,14 @@
                 
                 let actionBtn = '';
                 if (item.available) {
+                    const dropdownId = `dropdown_${item.domain.replace(/[^a-zA-Z0-9]/g, '_')}`;
                     actionBtn = `
                         <div class="btn-register-dropdown">
-                            <span class="btn-register-main" onclick="openPartner('limoo', '${item.domain}')">
+                            <span class="btn-register-main" onclick="toggleDropdown(event, '${dropdownId}')">
                                 <span>ثبت سریع</span>
                                 <span style="font-size: 0.75rem;">▼</span>
                             </span>
-                            <div class="dropdown-menu">
+                            <div id="${dropdownId}" class="dropdown-menu">
                                 <div class="dropdown-item" onclick="openPartner('limoo', '${item.domain}')">
                                     <span>🍋 ثبت در لیمو هاست</span>
                                 </div>
