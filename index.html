@@ -1156,22 +1156,66 @@
             if (e.key === 'Enter') startScan();
         });
 
-        // Multi-engine availability checker with fallbacks
+        // Multi-engine availability checker with fallbacks & dedicated Iranian resolver
         async function checkDomainStatus(domain, tld) {
-            if (tld === '.ir') {
-                try {
-                    const r = await fetch(`https://dns.google/resolve?name=${domain}&type=NS`);
-                    const data = await r.json();
-                    if (data.Status === 0 && data.Answer && data.Answer.length > 0) return { available: false, details: 'ثبت شده در ایرنیک' };
-                    if (data.Status === 2) return { available: false, details: 'دامنه فعال در ایرنیک' };
-                    if (data.Status === 3) return { available: true, details: 'آزاد' };
-                } catch(e) {}
-                return { available: false, details: 'ثبت شده' };
+            const isIrTld = tld.endsWith('.ir');
+
+            if (isIrTld) {
+                // Multi-source consensus for Iranian domains (AliDNS + Google + Cloudflare + DNS.SB)
+                // Note: ICANN RDAP does NOT support .IR and must never be called for .ir domains.
+                const irProviders = [
+                    { name: 'AliDNS', url: `https://dns.alidns.com/resolve?name=${domain}&type=SOA`, headers: { 'Accept': 'application/dns-json' } },
+                    { name: 'Google', url: `https://dns.google/resolve?name=${domain}&type=SOA`, headers: {} },
+                    { name: 'Cloudflare', url: `https://cloudflare-dns.com/dns-query?name=${domain}&type=SOA`, headers: { 'Accept': 'application/dns-json' } },
+                    { name: 'DNS_SB', url: `https://doh.dns.sb/dns-query?name=${domain}&type=SOA`, headers: { 'Accept': 'application/dns-json' } }
+                ];
+
+                let nxdomainVotes = 0;
+                let takenVotes = 0;
+                let takenReason = '';
+
+                await Promise.all(irProviders.map(async p => {
+                    try {
+                        const res = await fetch(p.url, { headers: p.headers, signal: AbortSignal.timeout(2800) });
+                        if (res.ok) {
+                            const data = await res.json();
+                            const st = data.Status;
+                            // Status 0: NOERROR (Domain registered and active)
+                            // Status 2: SERVFAIL (Domain registered in IRNIC, NS not responding)
+                            if (st === 0 || st === 2) {
+                                takenVotes++;
+                                if (!takenReason) {
+                                    takenReason = (st === 0) ? 'ثبت‌شده در ایرنیک' : 'ثبت‌شده در ایرنیک (NS غیرفعال)';
+                                }
+                            } else if (st === 3) {
+                                // Status 3: NXDOMAIN (Domain does not exist in IRNIC)
+                                nxdomainVotes++;
+                            }
+                        }
+                    } catch (e) {}
+                }));
+
+                // Verdict based on multi-source voting:
+                if (takenVotes > 0) {
+                    return { available: false, details: takenReason || 'ثبت شده در ایرنیک' };
+                } else if (nxdomainVotes >= 1) {
+                    return { available: true, details: 'آزاد و قابل ثبت (ایرنیک)' };
+                } else {
+                    // Secondary check with AliDNS NS query (uncensored in Iran)
+                    try {
+                        const sec = await fetch(`https://dns.alidns.com/resolve?name=${domain}&type=NS`, { headers: { 'Accept': 'application/dns-json' }, signal: AbortSignal.timeout(2500) });
+                        const d = await sec.json();
+                        if (d.Status === 3) return { available: true, details: 'آزاد (NXDOMAIN)' };
+                        if (d.Status === 0 || d.Status === 2) return { available: false, details: 'ثبت‌شده در ایرنیک' };
+                    } catch(e) {}
+                    return { available: false, details: 'عدم پاسخگویی سرورهای ایرنیک' };
+                }
             }
 
-            // Engine 1: Google DNS over HTTPS
+            // International Domains (Non-.ir)
+            // Engine 1: Google DoH
             try {
-                const res = await fetch(`https://dns.google/resolve?name=${domain}&type=NS`, { signal: AbortSignal.timeout(3000) });
+                const res = await fetch(`https://dns.google/resolve?name=${domain}&type=NS`, { signal: AbortSignal.timeout(2800) });
                 if (res.ok) {
                     const data = await res.json();
                     if (data.Status === 0 && data.Answer && data.Answer.length > 0) {
@@ -1182,11 +1226,11 @@
                 }
             } catch (err) {}
 
-            // Engine 2: Cloudflare DNS over HTTPS
+            // Engine 2: Cloudflare DoH
             try {
                 const cfRes = await fetch(`https://cloudflare-dns.com/dns-query?name=${domain}&type=NS`, {
                     headers: { 'Accept': 'application/dns-json' },
-                    signal: AbortSignal.timeout(3000)
+                    signal: AbortSignal.timeout(2800)
                 });
                 if (cfRes.ok) {
                     const cfData = await cfRes.json();
@@ -1198,9 +1242,25 @@
                 }
             } catch (err) {}
 
-            // Engine 3: ICANN RDAP Gateway
+            // Engine 3: AliDNS DoH (Uncensored in Iran)
             try {
-                const rdapRes = await fetch(`https://rdap.org/domain/${domain}`, { signal: AbortSignal.timeout(3500) });
+                const aliRes = await fetch(`https://dns.alidns.com/resolve?name=${domain}&type=NS`, {
+                    headers: { 'Accept': 'application/dns-json' },
+                    signal: AbortSignal.timeout(2800)
+                });
+                if (aliRes.ok) {
+                    const aliData = await aliRes.json();
+                    if (aliData.Status === 0 && aliData.Answer && aliData.Answer.length > 0) {
+                        return { available: false, details: 'دارای DNS فعال (AliDNS)' };
+                    } else if (aliData.Status === 3) {
+                        return { available: true, details: 'آزاد (NXDOMAIN)' };
+                    }
+                }
+            } catch (err) {}
+
+            // Engine 4: ICANN RDAP Gateway (Strictly for gTLD / non-.ir)
+            try {
+                const rdapRes = await fetch(`https://rdap.org/domain/${domain}`, { signal: AbortSignal.timeout(3000) });
                 if (rdapRes.status === 200) {
                     return { available: false, details: 'ثبت شده در ریجستری (RDAP)' };
                 } else if (rdapRes.status === 404) {

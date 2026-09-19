@@ -3,6 +3,7 @@
 Sync TLD pricing from IranServer and update tlds.json and tlds.js
 Accurately captures all 439 TLDs including both 2-column (standard rate)
 and 3-column (first-year discount + renewal) structures.
+Sorts popular and Iranian TLDs (.ir, .com, .net, etc.) at the top.
 """
 
 import json
@@ -14,6 +15,12 @@ import ssl
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
+
+PRIORITY_TLDS = [
+    ".ir", ".com", ".net", ".org", ".co.ir", ".co", ".io", ".shop",
+    ".online", ".store", ".site", ".me", ".xyz", ".biz", ".info",
+    ".app", ".dev", ".ai", ".tech", ".website", ".top", ".cc", ".pro"
+]
 
 def fetch_iranserver_tlds():
     url = "https://www.iranserver.com/domains/tld/"
@@ -64,6 +71,18 @@ def fetch_iranserver_tlds():
 
     tlds_list = list(tld_dict.values())
     print(f"Extracted {len(tlds_list)} unique TLDs from IranServer.")
+
+    # Sort: Priority TLDs first, then alphabetical
+    def sort_key(item):
+        tld = item["tld"]
+        if tld in PRIORITY_TLDS:
+            return (0, PRIORITY_TLDS.index(tld))
+        elif tld.endswith(".ir"):
+            return (1, tld)
+        else:
+            return (2, tld)
+
+    tlds_list.sort(key=sort_key)
     return tlds_list
 
 def main():
@@ -76,16 +95,13 @@ def main():
         print("Could not parse enough TLDs, keeping existing file.")
         return
 
-    # Sort so popular or alphabetically clean
-    latest_tlds.sort(key=lambda x: x["tld"])
-
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(latest_tlds, f, ensure_ascii=False, indent=2)
 
     with open(js_path, "w", encoding="utf-8") as f:
         f.write("window.IRANSERVER_TLDS = " + json.dumps(latest_tlds, ensure_ascii=False, indent=2) + ";\n")
 
-    print("Updated tlds.json and tlds.js successfully.")
+    print(f"Updated tlds.json and tlds.js successfully ({len(latest_tlds)} TLDs with priority ordering).")
 
 if __name__ == "__main__":
     main()
