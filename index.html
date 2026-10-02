@@ -794,12 +794,25 @@
                     </div>
                 </div>
 
-                <!-- Category 2: Themes & Plugins -->
+                <!-- Category 2: Themes, Plugins & Fonts -->
                 <div class="rec-category-box">
                     <div class="rec-cat-title">
-                        <span>🎨 افزونه و قالب وردپرس</span>
+                        <span>🎨 قالب، افزونه و فونت فارسی</span>
                     </div>
                     <div class="partners-list">
+                        <div class="partner-btn" onclick="openPartner('fontiran')">
+                            <div class="partner-left">
+                                <div class="partner-logo">
+                                    <img src="https://www.google.com/s2/favicons?domain=fontiran.com&sz=64" alt="فونت ایران">
+                                </div>
+                                <div class="partner-info">
+                                    <span class="partner-name">فونت ایران (FontIran)</span>
+                                    <span class="partner-desc">مرجع رسمی فونت‌های استاندارد فارسی و وب</span>
+                                </div>
+                            </div>
+                            <span class="partner-arrow">↗</span>
+                        </div>
+
                         <div class="partner-btn" onclick="openPartner('zhaket')">
                             <div class="partner-left">
                                 <div class="partner-logo">
@@ -1027,6 +1040,7 @@
 
         // Partner metadata with clean names and cloaked targets
         const PARTNERS = {
+            'fontiran': { name: 'فونت ایران', url: 'https://fontiran.com/?ref=693' },
             'limoo': { name: 'لیمو هاست', url: 'https://panel.limoo.host/aff.php?aff=25973' },
             'mihan': { name: 'میهن وب هاست', url: 'https://mihanwebhost.com/my/referrers_confirm.php?code=mwh-867b3' },
             'faraso': { name: 'فراسو سامانه', url: 'https://cp.faraso.org/aff.php?aff=475' },
