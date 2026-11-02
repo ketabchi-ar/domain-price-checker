@@ -1,2197 +1,2202 @@
 [
   {
     "tld": ".ir",
-    "register_price": "99,000",
-    "renew_price": "99,000"
+    "register_price": "169,000",
+    "renew_price": "169,000"
   },
   {
     "tld": ".com",
-    "register_price": "3,059,000",
-    "renew_price": "3,059,000"
+    "register_price": "3,485,000",
+    "renew_price": "3,485,000"
   },
   {
     "tld": ".net",
-    "register_price": "4,263,000",
-    "renew_price": "4,263,000"
+    "register_price": "4,477,000",
+    "renew_price": "4,477,000"
   },
   {
     "tld": ".org",
-    "register_price": "3,717,000",
-    "renew_price": "3,717,000"
+    "register_price": "3,919,000",
+    "renew_price": "3,919,000"
   },
   {
     "tld": ".co.ir",
-    "register_price": "99,000",
-    "renew_price": "99,000"
+    "register_price": "169,000",
+    "renew_price": "169,000"
   },
   {
     "tld": ".co",
-    "register_price": "5,639,000",
-    "renew_price": "5,639,000"
+    "register_price": "6,203,000",
+    "renew_price": "6,203,000"
   },
   {
     "tld": ".io",
-    "register_price": "12,565,000",
-    "renew_price": "19,929,000"
+    "register_price": "13,822,000",
+    "renew_price": "21,922,000"
   },
   {
     "tld": ".shop",
-    "register_price": "735,000",
-    "renew_price": "11,466,000"
+    "register_price": "1,025,000",
+    "renew_price": "12,613,000"
   },
   {
     "tld": ".online",
-    "register_price": "1,446,000",
-    "renew_price": "10,811,000"
+    "register_price": "1,591,000",
+    "renew_price": "11,892,000"
   },
   {
     "tld": ".store",
-    "register_price": "1,033,000",
-    "renew_price": "16,512,000"
+    "register_price": "1,136,000",
+    "renew_price": "18,163,000"
   },
   {
     "tld": ".site",
-    "register_price": "956,000",
-    "renew_price": "10,811,000"
+    "register_price": "1,052,000",
+    "renew_price": "11,892,000"
   },
   {
     "tld": ".me",
-    "register_price": "2,982,000",
-    "renew_price": "6,188,000"
+    "register_price": "3,227,000",
+    "renew_price": "6,695,000"
   },
   {
     "tld": ".xyz",
-    "register_price": "1,424,000",
-    "renew_price": "5,450,000"
+    "register_price": "1,566,000",
+    "renew_price": "5,994,000"
   },
   {
     "tld": ".biz",
-    "register_price": "6,804,000",
-    "renew_price": "6,804,000"
+    "register_price": "7,485,000",
+    "renew_price": "7,485,000"
   },
   {
     "tld": ".info",
-    "register_price": "1,881,000",
-    "renew_price": "8,372,000"
+    "register_price": "2,069,000",
+    "renew_price": "9,210,000"
   },
   {
     "tld": ".app",
-    "register_price": "7,597,000",
-    "renew_price": "7,597,000"
+    "register_price": "8,357,000",
+    "renew_price": "8,357,000"
   },
   {
     "tld": ".dev",
-    "register_price": "4,788,000",
-    "renew_price": "4,788,000"
+    "register_price": "5,267,000",
+    "renew_price": "5,267,000"
   },
   {
     "tld": ".ai",
-    "register_price": "35,616,000",
-    "renew_price": "35,616,000"
+    "register_price": "39,178,000",
+    "renew_price": "39,178,000"
   },
   {
     "tld": ".tech",
-    "register_price": "1,383,000",
-    "renew_price": "19,263,000"
+    "register_price": "1,521,000",
+    "renew_price": "21,190,000"
   },
   {
     "tld": ".website",
-    "register_price": "683,000",
-    "renew_price": "7,863,000"
+    "register_price": "751,000",
+    "renew_price": "8,649,000"
   },
   {
     "tld": ".top",
-    "register_price": "905,000",
-    "renew_price": "1,497,000"
+    "register_price": "995,000",
+    "renew_price": "1,646,000"
   },
   {
     "tld": ".cc",
-    "register_price": "2,891,000",
-    "renew_price": "2,891,000"
+    "register_price": "3,181,000",
+    "renew_price": "3,181,000"
   },
   {
     "tld": ".pro",
-    "register_price": "1,208,000",
-    "renew_price": "8,372,000"
+    "register_price": "1,329,000",
+    "renew_price": "9,210,000"
   },
   {
     "tld": ".ac.ir",
-    "register_price": "99,000",
-    "renew_price": "99,000"
+    "register_price": "169,000",
+    "renew_price": "169,000"
   },
   {
     "tld": ".gov.ir",
-    "register_price": "99,000",
-    "renew_price": "99,000"
+    "register_price": "169,000",
+    "renew_price": "169,000"
   },
   {
     "tld": ".id.ir",
-    "register_price": "99,000",
-    "renew_price": "99,000"
+    "register_price": "169,000",
+    "renew_price": "169,000"
   },
   {
     "tld": ".net.ir",
-    "register_price": "99,000",
-    "renew_price": "99,000"
+    "register_price": "169,000",
+    "renew_price": "169,000"
   },
   {
     "tld": ".org.ir",
-    "register_price": "99,000",
-    "renew_price": "99,000"
+    "register_price": "169,000",
+    "renew_price": "169,000"
   },
   {
     "tld": ".sch.ir",
-    "register_price": "99,000",
-    "renew_price": "99,000"
+    "register_price": "169,000",
+    "renew_price": "169,000"
   },
   {
     "tld": ".ac",
-    "register_price": "11,463,000",
-    "renew_price": "16,905,000"
+    "register_price": "12,609,000",
+    "renew_price": "18,595,000"
   },
   {
     "tld": ".academy",
-    "register_price": "5,163,000",
-    "renew_price": "13,618,000"
+    "register_price": "5,679,000",
+    "renew_price": "17,658,000"
   },
   {
     "tld": ".accountant",
-    "register_price": "7,217,000",
-    "renew_price": "7,217,000"
+    "register_price": "7,939,000",
+    "renew_price": "7,939,000"
   },
   {
     "tld": ".accountants",
-    "register_price": "10,325,000",
-    "renew_price": "34,726,000"
+    "register_price": "11,358,000",
+    "renew_price": "42,811,000"
   },
   {
     "tld": ".actor",
-    "register_price": "4,725,000",
-    "renew_price": "13,039,000"
+    "register_price": "5,198,000",
+    "renew_price": "15,976,000"
   },
   {
     "tld": ".agency",
-    "register_price": "1,383,000",
-    "renew_price": "9,009,000"
+    "register_price": "1,521,000",
+    "renew_price": "10,931,000"
   },
   {
     "tld": ".airforce",
-    "register_price": "33,390,000",
-    "renew_price": "33,390,000"
+    "register_price": "41,118,000",
+    "renew_price": "41,118,000"
   },
   {
     "tld": ".apartments",
-    "register_price": "4,725,000",
-    "renew_price": "16,795,000"
+    "register_price": "5,198,000",
+    "renew_price": "20,601,000"
   },
   {
     "tld": ".archi",
-    "register_price": "5,863,000",
-    "renew_price": "30,336,000"
+    "register_price": "6,449,000",
+    "renew_price": "37,418,000"
   },
   {
     "tld": ".army",
-    "register_price": "4,725,000",
-    "renew_price": "13,268,000"
+    "register_price": "5,198,000",
+    "renew_price": "15,856,000"
   },
   {
     "tld": ".art",
-    "register_price": "1,383,000",
-    "renew_price": "7,644,000"
+    "register_price": "1,521,000",
+    "renew_price": "8,409,000"
   },
   {
     "tld": ".asia",
-    "register_price": "4,158,000",
-    "renew_price": "4,158,000"
+    "register_price": "4,574,000",
+    "renew_price": "4,574,000"
   },
   {
     "tld": ".associates",
-    "register_price": "5,163,000",
-    "renew_price": "11,456,000"
+    "register_price": "5,679,000",
+    "renew_price": "13,874,000"
   },
   {
     "tld": ".attorney",
-    "register_price": "19,310,000",
-    "renew_price": "19,310,000"
+    "register_price": "21,241,000",
+    "renew_price": "21,241,000"
   },
   {
     "tld": ".auction",
-    "register_price": "1,208,000",
-    "renew_price": "10,899,000"
+    "register_price": "1,329,000",
+    "renew_price": "11,988,000"
   },
   {
     "tld": ".audio",
-    "register_price": "37,590,000",
-    "renew_price": "37,590,000"
+    "register_price": "41,349,000",
+    "renew_price": "41,349,000"
   },
   {
     "tld": ".auto",
-    "register_price": "722,400,000",
-    "renew_price": "722,400,000"
+    "register_price": "794,640,000",
+    "renew_price": "794,640,000"
   },
   {
     "tld": ".autos",
-    "register_price": "697,000",
-    "renew_price": "5,450,000"
+    "register_price": "767,000",
+    "renew_price": "5,994,000"
   },
   {
     "tld": ".baby",
-    "register_price": "6,997,000",
-    "renew_price": "20,748,000"
+    "register_price": "7,697,000",
+    "renew_price": "22,823,000"
   },
   {
     "tld": ".band",
-    "register_price": "6,983,000",
-    "renew_price": "9,119,000"
+    "register_price": "7,681,000",
+    "renew_price": "11,352,000"
   },
   {
     "tld": ".bargains",
-    "register_price": "5,163,000",
-    "renew_price": "8,791,000"
+    "register_price": "5,679,000",
+    "renew_price": "9,670,000"
   },
   {
     "tld": ".bayern",
-    "register_price": "10,731,000",
-    "renew_price": "10,731,000"
+    "register_price": "11,612,000",
+    "renew_price": "11,612,000"
   },
   {
     "tld": ".beauty",
-    "register_price": "697,000",
-    "renew_price": "5,450,000"
+    "register_price": "767,000",
+    "renew_price": "5,994,000"
   },
   {
     "tld": ".beer",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
   },
   {
     "tld": ".berlin",
-    "register_price": "17,647,000",
-    "renew_price": "17,647,000"
+    "register_price": "19,096,000",
+    "renew_price": "19,096,000"
   },
   {
     "tld": ".best",
-    "register_price": "6,797,000",
-    "renew_price": "6,797,000"
+    "register_price": "7,354,000",
+    "renew_price": "7,354,000"
   },
   {
     "tld": ".bible",
-    "register_price": "15,152,000",
-    "renew_price": "15,152,000"
+    "register_price": "16,667,000",
+    "renew_price": "16,667,000"
   },
   {
     "tld": ".bid",
-    "register_price": "2,083,000",
-    "renew_price": "2,385,000"
+    "register_price": "2,291,000",
+    "renew_price": "2,623,000"
   },
   {
     "tld": ".bike",
-    "register_price": "3,483,000",
-    "renew_price": "11,630,000"
+    "register_price": "3,831,000",
+    "renew_price": "14,703,000"
   },
   {
     "tld": ".bingo",
-    "register_price": "3,483,000",
-    "renew_price": "15,682,000"
+    "register_price": "3,831,000",
+    "renew_price": "19,340,000"
   },
   {
     "tld": ".bio",
-    "register_price": "2,363,000",
-    "renew_price": "21,513,000"
+    "register_price": "2,599,000",
+    "renew_price": "26,067,000"
   },
   {
     "tld": ".black",
-    "register_price": "6,983,000",
-    "renew_price": "19,547,000"
+    "register_price": "7,681,000",
+    "renew_price": "24,217,000"
   },
   {
     "tld": ".blackfriday",
-    "register_price": "37,590,000",
-    "renew_price": "37,590,000"
+    "register_price": "41,349,000",
+    "renew_price": "41,349,000"
   },
   {
     "tld": ".blog",
-    "register_price": "1,733,000",
-    "renew_price": "7,513,000"
+    "register_price": "963,000",
+    "renew_price": "8,265,000"
   },
   {
     "tld": ".blue",
-    "register_price": "5,513,000",
-    "renew_price": "7,371,000"
+    "register_price": "6,064,000",
+    "renew_price": "9,082,000"
   },
   {
     "tld": ".boats",
-    "register_price": "697,000",
-    "renew_price": "5,450,000"
+    "register_price": "767,000",
+    "renew_price": "5,994,000"
   },
   {
     "tld": ".bond",
-    "register_price": "963,000",
-    "renew_price": "6,061,000"
+    "register_price": "1,059,000",
+    "renew_price": "6,667,000"
   },
   {
     "tld": ".boutique",
-    "register_price": "1,033,000",
-    "renew_price": "9,730,000"
+    "register_price": "1,136,000",
+    "renew_price": "12,109,000"
   },
   {
     "tld": ".build",
-    "register_price": "9,975,000",
-    "renew_price": "9,975,000"
+    "register_price": "10,973,000",
+    "renew_price": "10,973,000"
   },
   {
     "tld": ".builders",
-    "register_price": "1,908,000",
-    "renew_price": "10,516,000"
+    "register_price": "2,099,000",
+    "renew_price": "12,973,000"
   },
   {
     "tld": ".business",
-    "register_price": "1,033,000",
-    "renew_price": "5,777,000"
+    "register_price": "1,136,000",
+    "renew_price": "7,784,000"
   },
   {
     "tld": ".buzz",
-    "register_price": "1,033,000",
-    "renew_price": "10,156,000"
+    "register_price": "1,136,000",
+    "renew_price": "11,172,000"
   },
   {
     "tld": ".cab",
-    "register_price": "5,513,000",
-    "renew_price": "9,468,000"
+    "register_price": "6,064,000",
+    "renew_price": "11,772,000"
   },
   {
     "tld": ".cafe",
-    "register_price": "1,908,000",
-    "renew_price": "15,278,000"
+    "register_price": "2,099,000",
+    "renew_price": "18,919,000"
   },
   {
     "tld": ".cam",
-    "register_price": "788,000",
-    "renew_price": "5,810,000"
+    "register_price": "867,000",
+    "renew_price": "6,391,000"
   },
   {
     "tld": ".camera",
-    "register_price": "5,163,000",
-    "renew_price": "17,363,000"
+    "register_price": "5,679,000",
+    "renew_price": "19,100,000"
   },
   {
     "tld": ".camp",
-    "register_price": "2,783,000",
-    "renew_price": "18,455,000"
+    "register_price": "3,061,000",
+    "renew_price": "23,352,000"
   },
   {
     "tld": ".capital",
-    "register_price": "2,363,000",
-    "renew_price": "20,956,000"
+    "register_price": "2,599,000",
+    "renew_price": "25,646,000"
   },
   {
     "tld": ".car",
-    "register_price": "722,400,000",
-    "renew_price": "722,400,000"
+    "register_price": "794,640,000",
+    "renew_price": "794,640,000"
   },
   {
     "tld": ".cards",
-    "register_price": "1,033,000",
-    "renew_price": "11,630,000"
+    "register_price": "1,136,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".care",
-    "register_price": "5,163,000",
-    "renew_price": "13,410,000"
+    "register_price": "5,679,000",
+    "renew_price": "16,433,000"
   },
   {
     "tld": ".careers",
-    "register_price": "6,983,000",
-    "renew_price": "21,174,000"
+    "register_price": "7,681,000",
+    "renew_price": "26,379,000"
   },
   {
     "tld": ".cars",
-    "register_price": "722,400,000",
-    "renew_price": "722,400,000"
+    "register_price": "794,640,000",
+    "renew_price": "794,640,000"
   },
   {
     "tld": ".casa",
-    "register_price": "3,990,000",
-    "renew_price": "3,990,000"
+    "register_price": "4,389,000",
+    "renew_price": "4,389,000"
   },
   {
     "tld": ".cash",
-    "register_price": "4,183,000",
-    "renew_price": "11,630,000"
+    "register_price": "4,601,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".catering",
-    "register_price": "11,183,000",
-    "renew_price": "11,183,000"
+    "register_price": "13,722,000",
+    "renew_price": "13,722,000"
   },
   {
     "tld": ".center",
-    "register_price": "1,383,000",
-    "renew_price": "9,599,000"
+    "register_price": "1,521,000",
+    "renew_price": "11,772,000"
   },
   {
     "tld": ".ceo",
-    "register_price": "3,497,000",
-    "renew_price": "41,496,000"
+    "register_price": "3,847,000",
+    "renew_price": "45,646,000"
   },
   {
     "tld": ".charity",
-    "register_price": "5,233,000",
-    "renew_price": "8,922,000"
+    "register_price": "5,756,000",
+    "renew_price": "9,814,000"
   },
   {
     "tld": ".chat",
-    "register_price": "2,363,000",
-    "renew_price": "13,661,000"
+    "register_price": "2,599,000",
+    "renew_price": "16,865,000"
   },
   {
     "tld": ".cheap",
-    "register_price": "2,363,000",
-    "renew_price": "10,833,000"
+    "register_price": "2,599,000",
+    "renew_price": "11,916,000"
   },
   {
     "tld": ".christmas",
-    "register_price": "11,277,000",
-    "renew_price": "11,277,000"
+    "register_price": "12,405,000",
+    "renew_price": "12,405,000"
   },
   {
     "tld": ".church",
-    "register_price": "2,783,000",
-    "renew_price": "17,068,000"
+    "register_price": "3,061,000",
+    "renew_price": "21,021,000"
   },
   {
     "tld": ".city",
-    "register_price": "1,908,000",
-    "renew_price": "8,463,000"
+    "register_price": "2,099,000",
+    "renew_price": "10,811,000"
   },
   {
     "tld": ".claims",
-    "register_price": "4,725,000",
-    "renew_price": "19,110,000"
+    "register_price": "5,198,000",
+    "renew_price": "23,544,000"
   },
   {
     "tld": ".cleaning",
-    "register_price": "20,398,000",
-    "renew_price": "20,398,000"
+    "register_price": "26,277,000",
+    "renew_price": "26,277,000"
   },
   {
     "tld": ".click",
-    "register_price": "948,000",
-    "renew_price": "3,910,000"
+    "register_price": "1,042,000",
+    "renew_price": "4,301,000"
   },
   {
     "tld": ".clinic",
-    "register_price": "4,725,000",
-    "renew_price": "19,209,000"
+    "register_price": "5,198,000",
+    "renew_price": "23,544,000"
   },
   {
     "tld": ".clothing",
-    "register_price": "4,725,000",
-    "renew_price": "9,730,000"
+    "register_price": "5,198,000",
+    "renew_price": "12,109,000"
   },
   {
     "tld": ".cloud",
-    "register_price": "858,000",
-    "renew_price": "7,634,000"
+    "register_price": "944,000",
+    "renew_price": "8,397,000"
   },
   {
     "tld": ".club",
-    "register_price": "5,670,000",
-    "renew_price": "5,670,000"
+    "register_price": "6,237,000",
+    "renew_price": "6,237,000"
   },
   {
     "tld": ".co.com",
-    "register_price": "7,224,000",
-    "renew_price": "7,224,000"
+    "register_price": "7,947,000",
+    "renew_price": "7,947,000"
   },
   {
     "tld": ".co.no",
-    "register_price": "6,727,000",
-    "renew_price": "6,727,000"
+    "register_price": "7,281,000",
+    "renew_price": "7,281,000"
   },
   {
     "tld": ".coach",
-    "register_price": "4,725,000",
-    "renew_price": "21,942,000"
+    "register_price": "5,198,000",
+    "renew_price": "27,748,000"
   },
   {
     "tld": ".codes",
-    "register_price": "1,908,000",
-    "renew_price": "21,174,000"
+    "register_price": "2,099,000",
+    "renew_price": "26,379,000"
   },
   {
     "tld": ".coffee",
-    "register_price": "4,725,000",
-    "renew_price": "12,821,000"
+    "register_price": "5,198,000",
+    "renew_price": "16,000,000"
   },
   {
     "tld": ".college",
-    "register_price": "6,997,000",
-    "renew_price": "19,056,000"
+    "register_price": "7,697,000",
+    "renew_price": "20,961,000"
   },
   {
     "tld": ".cologne",
-    "register_price": "10,588,000",
-    "renew_price": "10,588,000"
+    "register_price": "11,458,000",
+    "renew_price": "11,458,000"
   },
   {
     "tld": ".com.co",
-    "register_price": "5,639,000",
-    "renew_price": "5,639,000"
+    "register_price": "6,203,000",
+    "renew_price": "6,203,000"
   },
   {
     "tld": ".community",
-    "register_price": "3,483,000",
-    "renew_price": "13,705,000"
+    "register_price": "3,831,000",
+    "renew_price": "19,028,000"
   },
   {
     "tld": ".company",
-    "register_price": "1,033,000",
-    "renew_price": "5,926,000"
+    "register_price": "1,136,000",
+    "renew_price": "7,568,000"
   },
   {
     "tld": ".compare",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
   },
   {
     "tld": ".computer",
-    "register_price": "7,963,000",
-    "renew_price": "11,630,000"
+    "register_price": "8,759,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".condos",
-    "register_price": "16,790,000",
-    "renew_price": "16,790,000"
+    "register_price": "20,790,000",
+    "renew_price": "20,790,000"
   },
   {
     "tld": ".construction",
-    "register_price": "3,763,000",
-    "renew_price": "11,630,000"
+    "register_price": "4,139,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".consulting",
-    "register_price": "9,275,000",
-    "renew_price": "16,086,000"
+    "register_price": "10,203,000",
+    "renew_price": "17,694,000"
   },
   {
     "tld": ".contact",
-    "register_price": "4,305,000",
-    "renew_price": "4,305,000"
+    "register_price": "5,267,000",
+    "renew_price": "5,267,000"
   },
   {
     "tld": ".contractors",
-    "register_price": "2,363,000",
-    "renew_price": "10,342,000"
+    "register_price": "2,599,000",
+    "renew_price": "12,613,000"
   },
   {
     "tld": ".cooking",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
   },
   {
     "tld": ".cool",
-    "register_price": "2,363,000",
-    "renew_price": "13,661,000"
+    "register_price": "2,599,000",
+    "renew_price": "16,865,000"
   },
   {
     "tld": ".country",
-    "register_price": "734,580,000",
-    "renew_price": "734,580,000"
+    "register_price": "808,038,000",
+    "renew_price": "808,038,000"
   },
   {
     "tld": ".coupons",
-    "register_price": "1,033,000",
-    "renew_price": "16,206,000"
+    "register_price": "1,136,000",
+    "renew_price": "20,325,000"
   },
   {
     "tld": ".courses",
-    "register_price": "11,340,000",
-    "renew_price": "11,340,000"
+    "register_price": "12,474,000",
+    "renew_price": "12,474,000"
   },
   {
     "tld": ".credit",
-    "register_price": "2,783,000",
-    "renew_price": "30,358,000"
+    "register_price": "3,061,000",
+    "renew_price": "37,418,000"
   },
   {
     "tld": ".creditcard",
-    "register_price": "2,363,000",
-    "renew_price": "47,775,000"
+    "register_price": "2,599,000",
+    "renew_price": "52,553,000"
   },
   {
     "tld": ".cricket",
-    "register_price": "7,217,000",
-    "renew_price": "7,217,000"
+    "register_price": "7,939,000",
+    "renew_price": "7,939,000"
   },
   {
     "tld": ".cruises",
-    "register_price": "3,483,000",
-    "renew_price": "16,697,000"
+    "register_price": "3,831,000",
+    "renew_price": "20,757,000"
   },
   {
     "tld": ".cymru",
-    "register_price": "3,609,000",
-    "renew_price": "3,609,000"
+    "register_price": "4,012,000",
+    "renew_price": "4,012,000"
   },
   {
     "tld": ".cyou",
-    "register_price": "963,000",
-    "renew_price": "6,061,000"
+    "register_price": "1,059,000",
+    "renew_price": "6,667,000"
   },
   {
     "tld": ".dance",
-    "register_price": "4,183,000",
-    "renew_price": "8,169,000"
+    "register_price": "4,601,000",
+    "renew_price": "10,379,000"
   },
   {
     "tld": ".date",
-    "register_price": "2,083,000",
-    "renew_price": "2,385,000"
+    "register_price": "2,291,000",
+    "renew_price": "2,623,000"
   },
   {
     "tld": ".dating",
-    "register_price": "5,513,000",
-    "renew_price": "19,209,000"
+    "register_price": "6,064,000",
+    "renew_price": "23,544,000"
   },
   {
     "tld": ".deals",
-    "register_price": "1,383,000",
-    "renew_price": "11,630,000"
+    "register_price": "1,521,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".degree",
-    "register_price": "3,483,000",
-    "renew_price": "15,234,000"
+    "register_price": "3,831,000",
+    "renew_price": "16,757,000"
   },
   {
     "tld": ".delivery",
-    "register_price": "2,083,000",
-    "renew_price": "18,455,000"
+    "register_price": "2,291,000",
+    "renew_price": "23,352,000"
   },
   {
     "tld": ".democrat",
-    "register_price": "2,363,000",
-    "renew_price": "9,555,000"
+    "register_price": "2,310,000",
+    "renew_price": "2,310,000"
   },
   {
     "tld": ".dental",
-    "register_price": "22,575,000",
-    "renew_price": "22,575,000"
+    "register_price": "27,443,000",
+    "renew_price": "27,443,000"
   },
   {
     "tld": ".dentist",
-    "register_price": "19,152,000",
-    "renew_price": "19,152,000"
+    "register_price": "23,285,000",
+    "renew_price": "23,285,000"
   },
   {
     "tld": ".design",
-    "register_price": "17,010,000",
-    "renew_price": "17,010,000"
+    "register_price": "18,711,000",
+    "renew_price": "18,711,000"
   },
   {
     "tld": ".diamonds",
-    "register_price": "15,582,000",
-    "renew_price": "15,582,000"
+    "register_price": "17,141,000",
+    "renew_price": "17,141,000"
   },
   {
     "tld": ".diet",
-    "register_price": "37,590,000",
-    "renew_price": "37,590,000"
+    "register_price": "41,349,000",
+    "renew_price": "41,349,000"
   },
   {
     "tld": ".digital",
-    "register_price": "1,033,000",
-    "renew_price": "12,220,000"
+    "register_price": "1,136,000",
+    "renew_price": "13,874,000"
   },
   {
     "tld": ".direct",
-    "register_price": "4,725,000",
-    "renew_price": "12,504,000"
+    "register_price": "5,198,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".directory",
-    "register_price": "1,908,000",
-    "renew_price": "8,136,000"
+    "register_price": "2,099,000",
+    "renew_price": "10,379,000"
   },
   {
     "tld": ".discount",
-    "register_price": "1,908,000",
-    "renew_price": "8,693,000"
+    "register_price": "2,099,000",
+    "renew_price": "9,562,000"
   },
   {
     "tld": ".doctor",
-    "register_price": "3,483,000",
-    "renew_price": "34,486,000"
+    "register_price": "3,831,000",
+    "renew_price": "41,622,000"
   },
   {
     "tld": ".dog",
-    "register_price": "1,383,000",
-    "renew_price": "19,209,000"
+    "register_price": "1,521,000",
+    "renew_price": "23,544,000"
   },
   {
     "tld": ".domains",
-    "register_price": "4,725,000",
-    "renew_price": "12,657,000"
+    "register_price": "5,198,000",
+    "renew_price": "18,919,000"
   },
   {
     "tld": ".download",
-    "register_price": "2,083,000",
-    "renew_price": "2,385,000"
+    "register_price": "2,291,000",
+    "renew_price": "2,623,000"
   },
   {
     "tld": ".eco",
-    "register_price": "20,990,000",
-    "renew_price": "20,990,000"
+    "register_price": "23,089,000",
+    "renew_price": "23,089,000"
   },
   {
     "tld": ".education",
-    "register_price": "9,275,000",
-    "renew_price": "10,647,000"
+    "register_price": "10,203,000",
+    "renew_price": "12,973,000"
   },
   {
     "tld": ".email",
-    "register_price": "2,363,000",
-    "renew_price": "9,108,000"
+    "register_price": "2,599,000",
+    "renew_price": "11,352,000"
   },
   {
     "tld": ".energy",
-    "register_price": "5,163,000",
-    "renew_price": "34,726,000"
+    "register_price": "5,679,000",
+    "renew_price": "42,811,000"
   },
   {
     "tld": ".engineer",
-    "register_price": "4,183,000",
-    "renew_price": "11,630,000"
+    "register_price": "4,601,000",
+    "renew_price": "14,703,000"
   },
   {
     "tld": ".engineering",
-    "register_price": "2,783,000",
-    "renew_price": "19,209,000"
+    "register_price": "3,061,000",
+    "renew_price": "24,385,000"
   },
   {
     "tld": ".enterprises",
-    "register_price": "1,383,000",
-    "renew_price": "10,516,000"
+    "register_price": "1,521,000",
+    "renew_price": "12,973,000"
   },
   {
     "tld": ".equipment",
-    "register_price": "4,725,000",
-    "renew_price": "8,562,000"
+    "register_price": "5,198,000",
+    "renew_price": "10,811,000"
   },
   {
     "tld": ".estate",
-    "register_price": "3,483,000",
-    "renew_price": "11,630,000"
+    "register_price": "3,831,000",
+    "renew_price": "14,703,000"
   },
   {
     "tld": ".events",
-    "register_price": "4,183,000",
-    "renew_price": "13,410,000"
+    "register_price": "4,601,000",
+    "renew_price": "21,021,000"
   },
   {
     "tld": ".exchange",
-    "register_price": "2,608,000",
-    "renew_price": "11,630,000"
+    "register_price": "2,869,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".expert",
-    "register_price": "2,783,000",
-    "renew_price": "18,291,000"
+    "register_price": "3,061,000",
+    "renew_price": "22,703,000"
   },
   {
     "tld": ".exposed",
-    "register_price": "6,195,000",
-    "renew_price": "6,195,000"
+    "register_price": "7,681,000",
+    "renew_price": "7,681,000"
   },
   {
     "tld": ".express",
-    "register_price": "4,008,000",
-    "renew_price": "11,630,000"
+    "register_price": "4,409,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".fail",
-    "register_price": "3,483,000",
-    "renew_price": "11,456,000"
+    "register_price": "3,831,000",
+    "renew_price": "13,874,000"
   },
   {
     "tld": ".faith",
-    "register_price": "4,533,000",
-    "renew_price": "4,714,000"
+    "register_price": "4,986,000",
+    "renew_price": "5,186,000"
   },
   {
     "tld": ".family",
-    "register_price": "2,363,000",
-    "renew_price": "11,193,000"
+    "register_price": "2,599,000",
+    "renew_price": "14,295,000"
   },
   {
     "tld": ".fan",
-    "register_price": "2,783,000",
-    "renew_price": "17,680,000"
+    "register_price": "3,061,000",
+    "renew_price": "21,454,000"
   },
   {
     "tld": ".fans",
-    "register_price": "3,192,000",
-    "renew_price": "3,192,000"
+    "register_price": "3,512,000",
+    "renew_price": "3,512,000"
   },
   {
     "tld": ".farm",
-    "register_price": "3,308,000",
-    "renew_price": "11,630,000"
+    "register_price": "3,639,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".fashion",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
   },
   {
     "tld": ".feedback",
-    "register_price": "110,250,000",
-    "renew_price": "110,250,000"
+    "register_price": "121,275,000",
+    "renew_price": "121,275,000"
   },
   {
     "tld": ".finance",
-    "register_price": "2,783,000",
-    "renew_price": "19,110,000"
+    "register_price": "3,061,000",
+    "renew_price": "23,544,000"
   },
   {
     "tld": ".financial",
-    "register_price": "6,983,000",
-    "renew_price": "17,462,000"
+    "register_price": "7,681,000",
+    "renew_price": "21,622,000"
   },
   {
     "tld": ".fish",
-    "register_price": "3,483,000",
-    "renew_price": "13,039,000"
+    "register_price": "3,831,000",
+    "renew_price": "15,976,000"
   },
   {
     "tld": ".fishing",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
   },
   {
     "tld": ".fit",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
   },
   {
     "tld": ".fitness",
-    "register_price": "2,363,000",
-    "renew_price": "12,504,000"
+    "register_price": "2,599,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".flights",
-    "register_price": "13,825,000",
-    "renew_price": "17,462,000"
+    "register_price": "15,208,000",
+    "renew_price": "21,622,000"
   },
   {
     "tld": ".florist",
-    "register_price": "3,483,000",
-    "renew_price": "9,676,000"
+    "register_price": "3,831,000",
+    "renew_price": "10,643,000"
   },
   {
     "tld": ".flowers",
-    "register_price": "37,590,000",
-    "renew_price": "37,590,000"
+    "register_price": "41,349,000",
+    "renew_price": "41,349,000"
   },
   {
     "tld": ".fm",
-    "register_price": "30,702,000",
-    "renew_price": "30,702,000"
+    "register_price": "33,773,000",
+    "renew_price": "33,773,000"
   },
   {
     "tld": ".football",
-    "register_price": "4,725,000",
-    "renew_price": "7,699,000"
+    "register_price": "5,198,000",
+    "renew_price": "9,514,000"
   },
   {
     "tld": ".forsale",
-    "register_price": "4,725,000",
-    "renew_price": "10,899,000"
+    "register_price": "5,198,000",
+    "renew_price": "12,973,000"
   },
   {
     "tld": ".forum",
-    "register_price": "697,000",
-    "renew_price": "13,104,000"
+    "register_price": "767,000",
+    "renew_price": "14,415,000"
   },
   {
     "tld": ".foundation",
-    "register_price": "5,233,000",
-    "renew_price": "8,125,000"
+    "register_price": "5,756,000",
+    "renew_price": "8,937,000"
   },
   {
     "tld": ".fun",
-    "register_price": "683,000",
-    "renew_price": "11,794,000"
+    "register_price": "751,000",
+    "renew_price": "12,973,000"
   },
   {
     "tld": ".fund",
-    "register_price": "3,763,000",
-    "renew_price": "20,639,000"
+    "register_price": "4,139,000",
+    "renew_price": "25,646,000"
   },
   {
     "tld": ".furniture",
-    "register_price": "9,275,000",
-    "renew_price": "30,576,000"
+    "register_price": "10,203,000",
+    "renew_price": "37,418,000"
   },
   {
     "tld": ".futbol",
-    "register_price": "2,363,000",
-    "renew_price": "4,834,000"
+    "register_price": "2,310,000",
+    "renew_price": "2,310,000"
   },
   {
     "tld": ".fyi",
-    "register_price": "5,544,000",
-    "renew_price": "5,544,000"
+    "register_price": "6,099,000",
+    "renew_price": "6,099,000"
   },
   {
     "tld": ".gallery",
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
+  },
+  {
+    "tld": ".game",
+    "register_price": "137,214,000",
+    "renew_price": "137,214,000"
+  },
+  {
+    "tld": ".games",
+    "register_price": "3,831,000",
+    "renew_price": "12,193,000"
+  },
+  {
+    "tld": ".garden",
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
+  },
+  {
+    "tld": ".gd",
+    "register_price": "10,973,000",
+    "renew_price": "10,973,000"
+  },
+  {
+    "tld": ".gift",
+    "register_price": "6,307,000",
+    "renew_price": "6,307,000"
+  },
+  {
+    "tld": ".gifts",
+    "register_price": "3,831,000",
+    "renew_price": "13,406,000"
+  },
+  {
+    "tld": ".gives",
+    "register_price": "5,756,000",
+    "renew_price": "8,937,000"
+  },
+  {
+    "tld": ".glass",
+    "register_price": "25,064,000",
+    "renew_price": "25,064,000"
+  },
+  {
+    "tld": ".global",
+    "register_price": "15,208,000",
+    "renew_price": "35,316,000"
+  },
+  {
+    "tld": ".gmbh",
+    "register_price": "18,711,000",
+    "renew_price": "18,711,000"
+  },
+  {
+    "tld": ".gold",
+    "register_price": "2,599,000",
+    "renew_price": "37,418,000"
+  },
+  {
+    "tld": ".golf",
+    "register_price": "2,099,000",
+    "renew_price": "23,544,000"
+  },
+  {
+    "tld": ".graphics",
     "register_price": "8,316,000",
     "renew_price": "8,316,000"
   },
   {
-    "tld": ".game",
-    "register_price": "124,740,000",
-    "renew_price": "124,740,000"
-  },
-  {
-    "tld": ".games",
-    "register_price": "3,483,000",
-    "renew_price": "9,927,000"
-  },
-  {
-    "tld": ".garden",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
-  },
-  {
-    "tld": ".gd",
-    "register_price": "9,975,000",
-    "renew_price": "9,975,000"
-  },
-  {
-    "tld": ".gift",
-    "register_price": "5,733,000",
-    "renew_price": "5,733,000"
-  },
-  {
-    "tld": ".gifts",
-    "register_price": "3,483,000",
-    "renew_price": "10,899,000"
-  },
-  {
-    "tld": ".gives",
-    "register_price": "5,233,000",
-    "renew_price": "8,125,000"
-  },
-  {
-    "tld": ".glass",
-    "register_price": "20,150,000",
-    "renew_price": "20,150,000"
-  },
-  {
-    "tld": ".global",
-    "register_price": "13,825,000",
-    "renew_price": "28,371,000"
-  },
-  {
-    "tld": ".gmbh",
-    "register_price": "13,178,000",
-    "renew_price": "13,178,000"
-  },
-  {
-    "tld": ".gold",
-    "register_price": "2,363,000",
-    "renew_price": "30,358,000"
-  },
-  {
-    "tld": ".golf",
-    "register_price": "1,908,000",
-    "renew_price": "19,209,000"
-  },
-  {
-    "tld": ".graphics",
-    "register_price": "6,689,000",
-    "renew_price": "6,689,000"
-  },
-  {
     "tld": ".gratis",
-    "register_price": "6,605,000",
-    "renew_price": "6,605,000"
+    "register_price": "8,085,000",
+    "renew_price": "8,085,000"
   },
   {
     "tld": ".green",
-    "register_price": "2,783,000",
-    "renew_price": "24,003,000"
+    "register_price": "3,061,000",
+    "renew_price": "28,541,000"
   },
   {
     "tld": ".gripe",
-    "register_price": "2,499,000",
-    "renew_price": "2,499,000"
+    "register_price": "2,749,000",
+    "renew_price": "2,749,000"
   },
   {
     "tld": ".group",
-    "register_price": "2,608,000",
-    "renew_price": "7,699,000"
+    "register_price": "2,869,000",
+    "renew_price": "9,514,000"
   },
   {
     "tld": ".guide",
-    "register_price": "2,608,000",
-    "renew_price": "12,067,000"
+    "register_price": "2,869,000",
+    "renew_price": "13,874,000"
   },
   {
     "tld": ".guitars",
-    "register_price": "37,590,000",
-    "renew_price": "37,590,000"
+    "register_price": "41,349,000",
+    "renew_price": "41,349,000"
   },
   {
     "tld": ".guru",
-    "register_price": "1,033,000",
-    "renew_price": "12,657,000"
+    "register_price": "1,136,000",
+    "renew_price": "15,556,000"
   },
   {
     "tld": ".hair",
-    "register_price": "697,000",
-    "renew_price": "5,450,000"
+    "register_price": "767,000",
+    "renew_price": "5,994,000"
   },
   {
     "tld": ".hamburg",
-    "register_price": "16,321,000",
-    "renew_price": "16,321,000"
+    "register_price": "17,664,000",
+    "renew_price": "17,664,000"
   },
   {
     "tld": ".haus",
-    "register_price": "4,725,000",
-    "renew_price": "9,774,000"
+    "register_price": "5,198,000",
+    "renew_price": "12,193,000"
   },
   {
     "tld": ".healthcare",
-    "register_price": "24,675,000",
-    "renew_price": "24,675,000"
+    "register_price": "30,319,000",
+    "renew_price": "30,319,000"
   },
   {
     "tld": ".help",
-    "register_price": "1,047,000",
-    "renew_price": "9,774,000"
+    "register_price": "1,152,000",
+    "renew_price": "10,751,000"
   },
   {
     "tld": ".hiphop",
-    "register_price": "8,358,000",
-    "renew_price": "8,358,000"
+    "register_price": "9,194,000",
+    "renew_price": "9,194,000"
   },
   {
     "tld": ".hiv",
-    "register_price": "64,656,000",
-    "renew_price": "64,656,000"
+    "register_price": "71,122,000",
+    "renew_price": "71,122,000"
   },
   {
     "tld": ".hockey",
-    "register_price": "3,483,000",
-    "renew_price": "17,462,000"
+    "register_price": "3,831,000",
+    "renew_price": "21,442,000"
   },
   {
     "tld": ".holdings",
-    "register_price": "18,470,000",
-    "renew_price": "18,470,000"
+    "register_price": "22,638,000",
+    "renew_price": "22,638,000"
   },
   {
     "tld": ".holiday",
-    "register_price": "2,363,000",
-    "renew_price": "19,209,000"
+    "register_price": "2,599,000",
+    "renew_price": "21,130,000"
   },
   {
     "tld": ".homes",
-    "register_price": "697,000",
-    "renew_price": "5,450,000"
+    "register_price": "767,000",
+    "renew_price": "5,994,000"
   },
   {
     "tld": ".horse",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
   },
   {
     "tld": ".hospital",
-    "register_price": "16,275,000",
-    "renew_price": "16,275,000"
+    "register_price": "22,454,000",
+    "renew_price": "22,454,000"
   },
   {
     "tld": ".host",
-    "register_price": "29,862,000",
-    "renew_price": "29,862,000"
+    "register_price": "32,849,000",
+    "renew_price": "32,849,000"
   },
   {
     "tld": ".hosting",
-    "register_price": "124,740,000",
-    "renew_price": "124,740,000"
+    "register_price": "137,214,000",
+    "renew_price": "137,214,000"
   },
   {
     "tld": ".house",
-    "register_price": "6,563,000",
-    "renew_price": "12,941,000"
+    "register_price": "7,219,000",
+    "renew_price": "15,976,000"
   },
   {
     "tld": ".how",
-    "register_price": "8,400,000",
-    "renew_price": "8,400,000"
+    "register_price": "9,240,000",
+    "renew_price": "9,240,000"
   },
   {
     "tld": ".hu.net",
-    "register_price": "9,436,000",
-    "renew_price": "9,436,000"
+    "register_price": "10,211,000",
+    "renew_price": "10,211,000"
   },
   {
     "tld": ".icu",
-    "register_price": "683,000",
-    "renew_price": "6,061,000"
+    "register_price": "613,000",
+    "renew_price": "6,667,000"
   },
   {
     "tld": ".immo",
-    "register_price": "3,483,000",
-    "renew_price": "10,560,000"
+    "register_price": "3,831,000",
+    "renew_price": "12,973,000"
   },
   {
     "tld": ".immobilien",
-    "register_price": "3,483,000",
-    "renew_price": "10,899,000"
-  },
-  {
-    "tld": ".industries",
-    "register_price": "4,113,000",
-    "renew_price": "13,410,000"
-  },
-  {
-    "tld": ".ink",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
-  },
-  {
-    "tld": ".institute",
-    "register_price": "3,308,000",
-    "renew_price": "8,169,000"
-  },
-  {
-    "tld": ".insure",
-    "register_price": "2,363,000",
-    "renew_price": "20,956,000"
-  },
-  {
-    "tld": ".international",
-    "register_price": "3,483,000",
-    "renew_price": "9,119,000"
-  },
-  {
-    "tld": ".investments",
-    "register_price": "3,483,000",
-    "renew_price": "38,417,000"
-  },
-  {
-    "tld": ".irish",
-    "register_price": "2,363,000",
-    "renew_price": "6,498,000"
-  },
-  {
-    "tld": ".isla.pr",
-    "register_price": "2,919,000",
-    "renew_price": "2,919,000"
-  },
-  {
-    "tld": ".jetzt",
-    "register_price": "3,308,000",
-    "renew_price": "6,869,000"
-  },
-  {
-    "tld": ".jewelry",
-    "register_price": "4,725,000",
-    "renew_price": "19,209,000"
-  },
-  {
-    "tld": ".jobs",
-    "register_price": "61,950,000",
-    "renew_price": "61,950,000"
-  },
-  {
-    "tld": ".jpn.com",
-    "register_price": "11,970,000",
-    "renew_price": "11,970,000"
-  },
-  {
-    "tld": ".juegos",
-    "register_price": "112,770,000",
-    "renew_price": "112,770,000"
-  },
-  {
-    "tld": ".kaufen",
-    "register_price": "2,363,000",
-    "renew_price": "8,791,000"
-  },
-  {
-    "tld": ".kids",
-    "register_price": "7,182,000",
-    "renew_price": "7,182,000"
-  },
-  {
-    "tld": ".kim",
-    "register_price": "3,483,000",
-    "renew_price": "6,880,000"
-  },
-  {
-    "tld": ".kitchen",
-    "register_price": "3,483,000",
-    "renew_price": "19,110,000"
-  },
-  {
-    "tld": ".koeln",
-    "register_price": "10,588,000",
-    "renew_price": "10,588,000"
-  },
-  {
-    "tld": ".land",
-    "register_price": "3,763,000",
-    "renew_price": "12,504,000"
-  },
-  {
-    "tld": ".lawyer",
-    "register_price": "19,310,000",
-    "renew_price": "19,310,000"
-  },
-  {
-    "tld": ".lc",
-    "register_price": "6,503,000",
-    "renew_price": "6,503,000"
-  },
-  {
-    "tld": ".lease",
-    "register_price": "3,483,000",
-    "renew_price": "16,370,000"
-  },
-  {
-    "tld": ".legal",
-    "register_price": "2,363,000",
-    "renew_price": "21,174,000"
-  },
-  {
-    "tld": ".li",
-    "register_price": "2,468,000",
-    "renew_price": "2,468,000"
-  },
-  {
-    "tld": ".life",
-    "register_price": "1,033,000",
-    "renew_price": "10,899,000"
-  },
-  {
-    "tld": ".lighting",
-    "register_price": "3,483,000",
-    "renew_price": "6,957,000"
-  },
-  {
-    "tld": ".limited",
-    "register_price": "3,483,000",
-    "renew_price": "10,899,000"
-  },
-  {
-    "tld": ".limo",
-    "register_price": "4,725,000",
-    "renew_price": "16,086,000"
-  },
-  {
-    "tld": ".link",
-    "register_price": "2,632,000",
-    "renew_price": "2,632,000"
-  },
-  {
-    "tld": ".live",
-    "register_price": "1,033,000",
-    "renew_price": "9,599,000"
-  },
-  {
-    "tld": ".llc",
-    "register_price": "4,725,000",
-    "renew_price": "13,596,000"
-  },
-  {
-    "tld": ".loan",
-    "register_price": "2,083,000",
-    "renew_price": "2,385,000"
-  },
-  {
-    "tld": ".loans",
-    "register_price": "4,725,000",
-    "renew_price": "34,486,000"
-  },
-  {
-    "tld": ".lol",
-    "register_price": "697,000",
-    "renew_price": "9,807,000"
-  },
-  {
-    "tld": ".london",
-    "register_price": "10,570,000",
-    "renew_price": "10,570,000"
-  },
-  {
-    "tld": ".love",
-    "register_price": "3,147,000",
-    "renew_price": "8,409,000"
-  },
-  {
-    "tld": ".ltd",
-    "register_price": "2,363,000",
-    "renew_price": "9,108,000"
-  },
-  {
-    "tld": ".ltda",
-    "register_price": "10,115,000",
-    "renew_price": "10,115,000"
-  },
-  {
-    "tld": ".luxe",
-    "register_price": "5,985,000",
-    "renew_price": "5,985,000"
-  },
-  {
-    "tld": ".maison",
-    "register_price": "5,863,000",
-    "renew_price": "16,763,000"
-  },
-  {
-    "tld": ".makeup",
-    "register_price": "697,000",
-    "renew_price": "5,450,000"
-  },
-  {
-    "tld": ".management",
-    "register_price": "3,483,000",
-    "renew_price": "7,797,000"
-  },
-  {
-    "tld": ".market",
-    "register_price": "12,537,000",
-    "renew_price": "12,537,000"
-  },
-  {
-    "tld": ".marketing",
-    "register_price": "2,363,000",
-    "renew_price": "12,176,000"
-  },
-  {
-    "tld": ".mba",
-    "register_price": "4,725,000",
-    "renew_price": "11,630,000"
-  },
-  {
-    "tld": ".media",
-    "register_price": "1,908,000",
-    "renew_price": "13,410,000"
-  },
-  {
-    "tld": ".memorial",
-    "register_price": "14,543,000",
-    "renew_price": "14,543,000"
-  },
-  {
-    "tld": ".men",
-    "register_price": "2,083,000",
-    "renew_price": "2,385,000"
-  },
-  {
-    "tld": ".mex.com",
-    "register_price": "4,536,000",
-    "renew_price": "4,536,000"
-  },
-  {
-    "tld": ".miami",
-    "register_price": "6,804,000",
-    "renew_price": "6,804,000"
-  },
-  {
-    "tld": ".mobi",
-    "register_price": "1,715,000",
-    "renew_price": "15,944,000"
-  },
-  {
-    "tld": ".moda",
-    "register_price": "4,725,000",
-    "renew_price": "12,002,000"
-  },
-  {
-    "tld": ".mom",
-    "register_price": "697,000",
-    "renew_price": "9,392,000"
-  },
-  {
-    "tld": ".money",
-    "register_price": "4,725,000",
-    "renew_price": "10,516,000"
-  },
-  {
-    "tld": ".monster",
-    "register_price": "697,000",
-    "renew_price": "5,450,000"
-  },
-  {
-    "tld": ".mortgage",
-    "register_price": "3,483,000",
-    "renew_price": "18,455,000"
-  },
-  {
-    "tld": ".motorcycles",
-    "register_price": "697,000",
-    "renew_price": "5,450,000"
-  },
-  {
-    "tld": ".movie",
-    "register_price": "16,415,000",
-    "renew_price": "102,430,000"
-  },
-  {
-    "tld": ".name",
-    "register_price": "2,408,000",
-    "renew_price": "2,408,000"
-  },
-  {
-    "tld": ".name.pr",
-    "register_price": "39,900,000",
-    "renew_price": "39,900,000"
-  },
-  {
-    "tld": ".navy",
-    "register_price": "13,367,000",
-    "renew_price": "13,367,000"
-  },
-  {
-    "tld": ".net.ai",
-    "register_price": "35,616,000",
-    "renew_price": "35,616,000"
-  },
-  {
-    "tld": ".net.co",
-    "register_price": "5,639,000",
-    "renew_price": "5,639,000"
-  },
-  {
-    "tld": ".network",
-    "register_price": "1,908,000",
-    "renew_price": "10,647,000"
-  },
-  {
-    "tld": ".news",
-    "register_price": "4,183,000",
-    "renew_price": "9,599,000"
-  },
-  {
-    "tld": ".ninja",
-    "register_price": "2,363,000",
-    "renew_price": "9,119,000"
-  },
-  {
-    "tld": ".nrw",
-    "register_price": "13,734,000",
-    "renew_price": "13,734,000"
-  },
-  {
-    "tld": ".observer",
-    "register_price": "3,308,000",
-    "renew_price": "3,308,000"
-  },
-  {
-    "tld": ".one",
-    "register_price": "7,340,000",
-    "renew_price": "7,340,000"
-  },
-  {
-    "tld": ".ooo",
-    "register_price": "7,977,000",
-    "renew_price": "7,977,000"
-  },
-  {
-    "tld": ".or.at",
-    "register_price": "3,553,000",
-    "renew_price": "3,553,000"
-  },
-  {
-    "tld": ".organic",
-    "register_price": "4,725,000",
-    "renew_price": "25,531,000"
-  },
-  {
-    "tld": ".page",
-    "register_price": "3,990,000",
-    "renew_price": "3,990,000"
-  },
-  {
-    "tld": ".partners",
-    "register_price": "3,308,000",
-    "renew_price": "20,956,000"
-  },
-  {
-    "tld": ".parts",
-    "register_price": "3,763,000",
-    "renew_price": "12,504,000"
-  },
-  {
-    "tld": ".party",
-    "register_price": "2,083,000",
-    "renew_price": "2,385,000"
-  },
-  {
-    "tld": ".pet",
-    "register_price": "4,725,000",
-    "renew_price": "7,644,000"
-  },
-  {
-    "tld": ".ph",
-    "register_price": "15,960,000",
-    "renew_price": "15,960,000"
-  },
-  {
-    "tld": ".photo",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
-  },
-  {
-    "tld": ".photography",
-    "register_price": "2,363,000",
-    "renew_price": "10,833,000"
-  },
-  {
-    "tld": ".photos",
-    "register_price": "3,483,000",
-    "renew_price": "8,944,000"
-  },
-  {
-    "tld": ".pics",
-    "register_price": "697,000",
-    "renew_price": "9,807,000"
-  },
-  {
-    "tld": ".pictures",
-    "register_price": "3,483,000",
-    "renew_price": "4,740,000"
-  },
-  {
-    "tld": ".pink",
-    "register_price": "3,483,000",
-    "renew_price": "7,513,000"
-  },
-  {
-    "tld": ".pizza",
-    "register_price": "4,725,000",
-    "renew_price": "19,209,000"
-  },
-  {
-    "tld": ".place",
-    "register_price": "6,248,000",
-    "renew_price": "6,248,000"
-  },
-  {
-    "tld": ".plumbing",
-    "register_price": "3,483,000",
-    "renew_price": "20,956,000"
-  },
-  {
-    "tld": ".plus",
-    "register_price": "4,183,000",
-    "renew_price": "16,086,000"
-  },
-  {
-    "tld": ".poker",
-    "register_price": "3,483,000",
-    "renew_price": "21,578,000"
-  },
-  {
-    "tld": ".press",
-    "register_price": "23,436,000",
-    "renew_price": "23,436,000"
-  },
-  {
-    "tld": ".productions",
-    "register_price": "3,483,000",
-    "renew_price": "12,176,000"
-  },
-  {
-    "tld": ".promo",
-    "register_price": "4,725,000",
-    "renew_price": "7,317,000"
-  },
-  {
-    "tld": ".properties",
-    "register_price": "2,608,000",
-    "renew_price": "11,630,000"
-  },
-  {
-    "tld": ".property",
-    "register_price": "20,997,000",
-    "renew_price": "39,094,000"
-  },
-  {
-    "tld": ".protection",
-    "register_price": "722,400,000",
-    "renew_price": "722,400,000"
-  },
-  {
-    "tld": ".pub",
-    "register_price": "11,708,000",
-    "renew_price": "11,708,000"
-  },
-  {
-    "tld": ".qpon",
-    "register_price": "1,033,000",
-    "renew_price": "3,881,000"
-  },
-  {
-    "tld": ".quest",
-    "register_price": "697,000",
-    "renew_price": "5,450,000"
-  },
-  {
-    "tld": ".racing",
-    "register_price": "4,533,000",
-    "renew_price": "4,714,000"
-  },
-  {
-    "tld": ".realty",
-    "register_price": "34,997,000",
-    "renew_price": "107,016,000"
-  },
-  {
-    "tld": ".recipes",
-    "register_price": "2,783,000",
-    "renew_price": "21,942,000"
-  },
-  {
-    "tld": ".red",
-    "register_price": "3,483,000",
-    "renew_price": "6,935,000"
-  },
-  {
-    "tld": ".rehab",
-    "register_price": "3,483,000",
-    "renew_price": "10,691,000"
-  },
-  {
-    "tld": ".reise",
-    "register_price": "26,859,000",
-    "renew_price": "26,859,000"
-  },
-  {
-    "tld": ".reisen",
-    "register_price": "5,796,000",
-    "renew_price": "5,796,000"
-  },
-  {
-    "tld": ".rent",
-    "register_price": "6,997,000",
-    "renew_price": "19,056,000"
-  },
-  {
-    "tld": ".rentals",
-    "register_price": "2,783,000",
+    "register_price": "3,831,000",
     "renew_price": "12,613,000"
   },
   {
-    "tld": ".repair",
-    "register_price": "3,308,000",
-    "renew_price": "10,691,000"
+    "tld": ".industries",
+    "register_price": "4,524,000",
+    "renew_price": "16,397,000"
   },
   {
-    "tld": ".report",
-    "register_price": "2,783,000",
-    "renew_price": "7,317,000"
+    "tld": ".ink",
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
   },
   {
-    "tld": ".republican",
-    "register_price": "2,363,000",
-    "renew_price": "9,555,000"
+    "tld": ".institute",
+    "register_price": "3,639,000",
+    "renew_price": "10,379,000"
   },
   {
-    "tld": ".rest",
-    "register_price": "697,000",
-    "renew_price": "9,392,000"
+    "tld": ".insure",
+    "register_price": "2,599,000",
+    "renew_price": "26,067,000"
   },
   {
-    "tld": ".restaurant",
-    "register_price": "5,513,000",
-    "renew_price": "19,209,000"
+    "tld": ".international",
+    "register_price": "3,831,000",
+    "renew_price": "11,352,000"
   },
   {
-    "tld": ".review",
-    "register_price": "4,533,000",
-    "renew_price": "4,714,000"
+    "tld": ".investments",
+    "register_price": "3,831,000",
+    "renew_price": "46,667,000"
   },
   {
-    "tld": ".reviews",
-    "register_price": "1,908,000",
-    "renew_price": "18,455,000"
+    "tld": ".irish",
+    "register_price": "2,599,000",
+    "renew_price": "7,988,000"
   },
   {
-    "tld": ".rip",
-    "register_price": "1,908,000",
-    "renew_price": "6,935,000"
+    "tld": ".isla.pr",
+    "register_price": "3,211,000",
+    "renew_price": "3,211,000"
   },
   {
-    "tld": ".rocks",
-    "register_price": "1,383,000",
-    "renew_price": "6,443,000"
-  },
-  {
-    "tld": ".rodeo",
-    "register_price": "3,780,000",
-    "renew_price": "3,780,000"
-  },
-  {
-    "tld": ".ruhr",
-    "register_price": "8,204,000",
-    "renew_price": "8,204,000"
-  },
-  {
-    "tld": ".run",
-    "register_price": "1,715,000",
-    "renew_price": "8,136,000"
-  },
-  {
-    "tld": ".saarland",
-    "register_price": "8,155,000",
-    "renew_price": "8,155,000"
-  },
-  {
-    "tld": ".sale",
-    "register_price": "1,383,000",
-    "renew_price": "11,630,000"
-  },
-  {
-    "tld": ".salon",
-    "register_price": "4,725,000",
-    "renew_price": "16,926,000"
-  },
-  {
-    "tld": ".sarl",
-    "register_price": "2,499,000",
-    "renew_price": "2,499,000"
-  },
-  {
-    "tld": ".sc",
-    "register_price": "31,290,000",
-    "renew_price": "31,290,000"
-  },
-  {
-    "tld": ".school",
-    "register_price": "2,363,000",
-    "renew_price": "10,691,000"
-  },
-  {
-    "tld": ".schule",
-    "register_price": "4,725,000",
-    "renew_price": "8,110,000"
-  },
-  {
-    "tld": ".science",
-    "register_price": "4,533,000",
-    "renew_price": "4,714,000"
-  },
-  {
-    "tld": ".security",
-    "register_price": "722,400,000",
-    "renew_price": "722,400,000"
-  },
-  {
-    "tld": ".select",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
-  },
-  {
-    "tld": ".services",
-    "register_price": "3,763,000",
-    "renew_price": "11,630,000"
-  },
-  {
-    "tld": ".shiksha",
-    "register_price": "4,725,000",
-    "renew_price": "15,059,000"
-  },
-  {
-    "tld": ".shoes",
-    "register_price": "9,275,000",
-    "renew_price": "19,209,000"
-  },
-  {
-    "tld": ".shopping",
-    "register_price": "3,483,000",
-    "renew_price": "8,842,000"
-  },
-  {
-    "tld": ".show",
-    "register_price": "3,483,000",
-    "renew_price": "13,039,000"
-  },
-  {
-    "tld": ".singles",
-    "register_price": "3,063,000",
-    "renew_price": "9,927,000"
-  },
-  {
-    "tld": ".ski",
-    "register_price": "9,275,000",
-    "renew_price": "19,642,000"
-  },
-  {
-    "tld": ".skin",
-    "register_price": "697,000",
-    "renew_price": "5,450,000"
-  },
-  {
-    "tld": ".soccer",
-    "register_price": "4,725,000",
-    "renew_price": "7,699,000"
-  },
-  {
-    "tld": ".social",
-    "register_price": "2,783,000",
-    "renew_price": "12,504,000"
-  },
-  {
-    "tld": ".software",
-    "register_price": "6,983,000",
-    "renew_price": "12,504,000"
-  },
-  {
-    "tld": ".solar",
-    "register_price": "2,363,000",
-    "renew_price": "19,209,000"
-  },
-  {
-    "tld": ".solutions",
-    "register_price": "1,383,000",
-    "renew_price": "9,119,000"
-  },
-  {
-    "tld": ".soy",
-    "register_price": "7,560,000",
-    "renew_price": "7,560,000"
-  },
-  {
-    "tld": ".space",
-    "register_price": "683,000",
-    "renew_price": "9,828,000"
-  },
-  {
-    "tld": ".srl",
-    "register_price": "9,391,000",
-    "renew_price": "9,391,000"
-  },
-  {
-    "tld": ".storage",
-    "register_price": "199,500,000",
-    "renew_price": "199,500,000"
-  },
-  {
-    "tld": ".stream",
-    "register_price": "2,083,000",
-    "renew_price": "2,385,000"
-  },
-  {
-    "tld": ".studio",
-    "register_price": "5,163,000",
-    "renew_price": "11,925,000"
-  },
-  {
-    "tld": ".study",
-    "register_price": "11,340,000",
-    "renew_price": "11,340,000"
-  },
-  {
-    "tld": ".style",
-    "register_price": "3,063,000",
-    "renew_price": "11,630,000"
-  },
-  {
-    "tld": ".supplies",
-    "register_price": "7,035,000",
-    "renew_price": "7,035,000"
-  },
-  {
-    "tld": ".supply",
-    "register_price": "7,403,000",
-    "renew_price": "7,403,000"
-  },
-  {
-    "tld": ".support",
-    "register_price": "2,783,000",
-    "renew_price": "8,169,000"
-  },
-  {
-    "tld": ".surf",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
-  },
-  {
-    "tld": ".surgery",
-    "register_price": "15,467,000",
-    "renew_price": "15,467,000"
-  },
-  {
-    "tld": ".systems",
-    "register_price": "5,163,000",
-    "renew_price": "10,418,000"
-  },
-  {
-    "tld": ".tattoo",
-    "register_price": "11,277,000",
-    "renew_price": "11,277,000"
-  },
-  {
-    "tld": ".tax",
-    "register_price": "3,483,000",
-    "renew_price": "19,864,000"
-  },
-  {
-    "tld": ".taxi",
-    "register_price": "2,608,000",
-    "renew_price": "18,455,000"
-  },
-  {
-    "tld": ".team",
-    "register_price": "1,908,000",
-    "renew_price": "10,899,000"
-  },
-  {
-    "tld": ".technology",
-    "register_price": "4,183,000",
+    "tld": ".jetzt",
+    "register_price": "3,639,000",
     "renew_price": "8,409,000"
   },
   {
+    "tld": ".jewelry",
+    "register_price": "5,198,000",
+    "renew_price": "23,544,000"
+  },
+  {
+    "tld": ".jobs",
+    "register_price": "68,145,000",
+    "renew_price": "68,145,000"
+  },
+  {
+    "tld": ".jpn.com",
+    "register_price": "13,167,000",
+    "renew_price": "13,167,000"
+  },
+  {
+    "tld": ".juegos",
+    "register_price": "124,047,000",
+    "renew_price": "124,047,000"
+  },
+  {
+    "tld": ".kaufen",
+    "register_price": "2,599,000",
+    "renew_price": "10,931,000"
+  },
+  {
+    "tld": ".kids",
+    "register_price": "7,901,000",
+    "renew_price": "7,901,000"
+  },
+  {
+    "tld": ".kim",
+    "register_price": "3,831,000",
+    "renew_price": "7,568,000"
+  },
+  {
+    "tld": ".kitchen",
+    "register_price": "3,831,000",
+    "renew_price": "23,544,000"
+  },
+  {
+    "tld": ".koeln",
+    "register_price": "11,458,000",
+    "renew_price": "11,458,000"
+  },
+  {
+    "tld": ".land",
+    "register_price": "4,139,000",
+    "renew_price": "14,271,000"
+  },
+  {
+    "tld": ".lawyer",
+    "register_price": "23,701,000",
+    "renew_price": "23,701,000"
+  },
+  {
+    "tld": ".lc",
+    "register_price": "7,154,000",
+    "renew_price": "7,154,000"
+  },
+  {
+    "tld": ".lease",
+    "register_price": "3,831,000",
+    "renew_price": "18,006,000"
+  },
+  {
+    "tld": ".legal",
+    "register_price": "2,599,000",
+    "renew_price": "26,379,000"
+  },
+  {
+    "tld": ".li",
+    "register_price": "2,746,000",
+    "renew_price": "2,746,000"
+  },
+  {
+    "tld": ".life",
+    "register_price": "1,136,000",
+    "renew_price": "14,271,000"
+  },
+  {
+    "tld": ".lighting",
+    "register_price": "3,831,000",
+    "renew_price": "8,649,000"
+  },
+  {
+    "tld": ".limited",
+    "register_price": "3,831,000",
+    "renew_price": "13,406,000"
+  },
+  {
+    "tld": ".limo",
+    "register_price": "5,198,000",
+    "renew_price": "17,694,000"
+  },
+  {
+    "tld": ".link",
+    "register_price": "2,896,000",
+    "renew_price": "2,896,000"
+  },
+  {
+    "tld": ".live",
+    "register_price": "1,136,000",
+    "renew_price": "12,613,000"
+  },
+  {
+    "tld": ".llc",
+    "register_price": "5,198,000",
+    "renew_price": "14,955,000"
+  },
+  {
+    "tld": ".loan",
+    "register_price": "2,291,000",
+    "renew_price": "2,623,000"
+  },
+  {
+    "tld": ".loans",
+    "register_price": "5,198,000",
+    "renew_price": "37,934,000"
+  },
+  {
+    "tld": ".lol",
+    "register_price": "767,000",
+    "renew_price": "10,787,000"
+  },
+  {
+    "tld": ".london",
+    "register_price": "11,762,000",
+    "renew_price": "11,762,000"
+  },
+  {
+    "tld": ".love",
+    "register_price": "3,462,000",
+    "renew_price": "9,250,000"
+  },
+  {
+    "tld": ".ltd",
+    "register_price": "2,599,000",
+    "renew_price": "13,874,000"
+  },
+  {
+    "tld": ".ltda",
+    "register_price": "11,127,000",
+    "renew_price": "11,127,000"
+  },
+  {
+    "tld": ".luxe",
+    "register_price": "6,584,000",
+    "renew_price": "6,584,000"
+  },
+  {
+    "tld": ".maison",
+    "register_price": "6,449,000",
+    "renew_price": "18,439,000"
+  },
+  {
+    "tld": ".makeup",
+    "register_price": "767,000",
+    "renew_price": "5,994,000"
+  },
+  {
+    "tld": ".management",
+    "register_price": "3,831,000",
+    "renew_price": "9,514,000"
+  },
+  {
+    "tld": ".market",
+    "register_price": "15,362,000",
+    "renew_price": "15,362,000"
+  },
+  {
+    "tld": ".marketing",
+    "register_price": "2,599,000",
+    "renew_price": "13,874,000"
+  },
+  {
+    "tld": ".mba",
+    "register_price": "5,198,000",
+    "renew_price": "14,271,000"
+  },
+  {
+    "tld": ".media",
+    "register_price": "2,099,000",
+    "renew_price": "16,397,000"
+  },
+  {
+    "tld": ".memorial",
+    "register_price": "40,021,000",
+    "renew_price": "40,021,000"
+  },
+  {
+    "tld": ".men",
+    "register_price": "2,291,000",
+    "renew_price": "2,623,000"
+  },
+  {
+    "tld": ".mex.com",
+    "register_price": "4,990,000",
+    "renew_price": "4,990,000"
+  },
+  {
+    "tld": ".miami",
+    "register_price": "7,485,000",
+    "renew_price": "7,485,000"
+  },
+  {
+    "tld": ".mobi",
+    "register_price": "1,887,000",
+    "renew_price": "17,538,000"
+  },
+  {
+    "tld": ".moda",
+    "register_price": "5,198,000",
+    "renew_price": "13,202,000"
+  },
+  {
+    "tld": ".mom",
+    "register_price": "767,000",
+    "renew_price": "10,331,000"
+  },
+  {
+    "tld": ".money",
+    "register_price": "5,198,000",
+    "renew_price": "12,973,000"
+  },
+  {
+    "tld": ".monster",
+    "register_price": "767,000",
+    "renew_price": "5,994,000"
+  },
+  {
+    "tld": ".mortgage",
+    "register_price": "3,831,000",
+    "renew_price": "23,352,000"
+  },
+  {
+    "tld": ".motorcycles",
+    "register_price": "767,000",
+    "renew_price": "5,994,000"
+  },
+  {
+    "tld": ".movie",
+    "register_price": "18,057,000",
+    "renew_price": "126,126,000"
+  },
+  {
+    "tld": ".name",
+    "register_price": "2,649,000",
+    "renew_price": "2,649,000"
+  },
+  {
+    "tld": ".name.pr",
+    "register_price": "43,890,000",
+    "renew_price": "43,890,000"
+  },
+  {
+    "tld": ".navy",
+    "register_price": "36,960,000",
+    "renew_price": "36,960,000"
+  },
+  {
+    "tld": ".net.ai",
+    "register_price": "39,178,000",
+    "renew_price": "39,178,000"
+  },
+  {
+    "tld": ".net.co",
+    "register_price": "6,203,000",
+    "renew_price": "6,203,000"
+  },
+  {
+    "tld": ".network",
+    "register_price": "2,099,000",
+    "renew_price": "12,973,000"
+  },
+  {
+    "tld": ".news",
+    "register_price": "4,601,000",
+    "renew_price": "11,772,000"
+  },
+  {
+    "tld": ".ninja",
+    "register_price": "2,599,000",
+    "renew_price": "11,352,000"
+  },
+  {
+    "tld": ".nrw",
+    "register_price": "14,865,000",
+    "renew_price": "14,865,000"
+  },
+  {
+    "tld": ".observer",
+    "register_price": "3,639,000",
+    "renew_price": "3,639,000"
+  },
+  {
+    "tld": ".one",
+    "register_price": "8,074,000",
+    "renew_price": "8,074,000"
+  },
+  {
+    "tld": ".ooo",
+    "register_price": "8,775,000",
+    "renew_price": "8,775,000"
+  },
+  {
+    "tld": ".or.at",
+    "register_price": "3,847,000",
+    "renew_price": "3,847,000"
+  },
+  {
+    "tld": ".organic",
+    "register_price": "5,198,000",
+    "renew_price": "28,085,000"
+  },
+  {
+    "tld": ".page",
+    "register_price": "4,389,000",
+    "renew_price": "4,389,000"
+  },
+  {
+    "tld": ".partners",
+    "register_price": "3,639,000",
+    "renew_price": "25,646,000"
+  },
+  {
+    "tld": ".parts",
+    "register_price": "4,139,000",
+    "renew_price": "14,271,000"
+  },
+  {
+    "tld": ".party",
+    "register_price": "2,291,000",
+    "renew_price": "2,623,000"
+  },
+  {
+    "tld": ".pet",
+    "register_price": "5,198,000",
+    "renew_price": "9,250,000"
+  },
+  {
+    "tld": ".ph",
+    "register_price": "17,556,000",
+    "renew_price": "17,556,000"
+  },
+  {
+    "tld": ".photo",
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
+  },
+  {
+    "tld": ".photography",
+    "register_price": "2,599,000",
+    "renew_price": "13,406,000"
+  },
+  {
+    "tld": ".photos",
+    "register_price": "3,831,000",
+    "renew_price": "11,244,000"
+  },
+  {
+    "tld": ".pics",
+    "register_price": "767,000",
+    "renew_price": "10,787,000"
+  },
+  {
+    "tld": ".pictures",
+    "register_price": "3,831,000",
+    "renew_price": "5,622,000"
+  },
+  {
+    "tld": ".pink",
+    "register_price": "3,831,000",
+    "renew_price": "8,265,000"
+  },
+  {
+    "tld": ".pizza",
+    "register_price": "5,198,000",
+    "renew_price": "23,544,000"
+  },
+  {
+    "tld": ".place",
+    "register_price": "7,681,000",
+    "renew_price": "7,681,000"
+  },
+  {
+    "tld": ".plumbing",
+    "register_price": "3,831,000",
+    "renew_price": "26,067,000"
+  },
+  {
+    "tld": ".plus",
+    "register_price": "4,601,000",
+    "renew_price": "19,340,000"
+  },
+  {
+    "tld": ".poker",
+    "register_price": "3,831,000",
+    "renew_price": "23,736,000"
+  },
+  {
+    "tld": ".press",
+    "register_price": "25,780,000",
+    "renew_price": "25,780,000"
+  },
+  {
+    "tld": ".productions",
+    "register_price": "3,831,000",
+    "renew_price": "14,271,000"
+  },
+  {
+    "tld": ".promo",
+    "register_price": "5,198,000",
+    "renew_price": "9,082,000"
+  },
+  {
+    "tld": ".properties",
+    "register_price": "2,869,000",
+    "renew_price": "14,271,000"
+  },
+  {
+    "tld": ".property",
+    "register_price": "23,097,000",
+    "renew_price": "43,003,000"
+  },
+  {
+    "tld": ".protection",
+    "register_price": "794,640,000",
+    "renew_price": "794,640,000"
+  },
+  {
+    "tld": ".pub",
+    "register_price": "14,553,000",
+    "renew_price": "14,553,000"
+  },
+  {
+    "tld": ".qpon",
+    "register_price": "1,136,000",
+    "renew_price": "4,269,000"
+  },
+  {
+    "tld": ".quest",
+    "register_price": "767,000",
+    "renew_price": "5,994,000"
+  },
+  {
+    "tld": ".racing",
+    "register_price": "4,986,000",
+    "renew_price": "5,186,000"
+  },
+  {
+    "tld": ".realty",
+    "register_price": "38,497,000",
+    "renew_price": "117,718,000"
+  },
+  {
+    "tld": ".recipes",
+    "register_price": "3,061,000",
+    "renew_price": "27,748,000"
+  },
+  {
+    "tld": ".red",
+    "register_price": "3,831,000",
+    "renew_price": "8,649,000"
+  },
+  {
+    "tld": ".rehab",
+    "register_price": "3,831,000",
+    "renew_price": "13,034,000"
+  },
+  {
+    "tld": ".reise",
+    "register_price": "33,957,000",
+    "renew_price": "33,957,000"
+  },
+  {
+    "tld": ".reisen",
+    "register_price": "7,277,000",
+    "renew_price": "7,277,000"
+  },
+  {
+    "tld": ".rent",
+    "register_price": "7,697,000",
+    "renew_price": "20,961,000"
+  },
+  {
+    "tld": ".rentals",
+    "register_price": "3,061,000",
+    "renew_price": "15,976,000"
+  },
+  {
+    "tld": ".repair",
+    "register_price": "3,639,000",
+    "renew_price": "13,034,000"
+  },
+  {
+    "tld": ".report",
+    "register_price": "3,061,000",
+    "renew_price": "8,649,000"
+  },
+  {
+    "tld": ".republican",
+    "register_price": "2,310,000",
+    "renew_price": "2,310,000"
+  },
+  {
+    "tld": ".rest",
+    "register_price": "767,000",
+    "renew_price": "10,331,000"
+  },
+  {
+    "tld": ".restaurant",
+    "register_price": "6,064,000",
+    "renew_price": "23,544,000"
+  },
+  {
+    "tld": ".review",
+    "register_price": "4,986,000",
+    "renew_price": "5,186,000"
+  },
+  {
+    "tld": ".reviews",
+    "register_price": "2,099,000",
+    "renew_price": "23,352,000"
+  },
+  {
+    "tld": ".rip",
+    "register_price": "2,099,000",
+    "renew_price": "8,649,000"
+  },
+  {
+    "tld": ".rocks",
+    "register_price": "1,521,000",
+    "renew_price": "7,988,000"
+  },
+  {
+    "tld": ".rodeo",
+    "register_price": "4,158,000",
+    "renew_price": "4,158,000"
+  },
+  {
+    "tld": ".ruhr",
+    "register_price": "8,879,000",
+    "renew_price": "8,879,000"
+  },
+  {
+    "tld": ".run",
+    "register_price": "1,887,000",
+    "renew_price": "10,379,000"
+  },
+  {
+    "tld": ".saarland",
+    "register_price": "8,825,000",
+    "renew_price": "8,825,000"
+  },
+  {
+    "tld": ".sale",
+    "register_price": "1,521,000",
+    "renew_price": "14,703,000"
+  },
+  {
+    "tld": ".salon",
+    "register_price": "5,198,000",
+    "renew_price": "21,190,000"
+  },
+  {
+    "tld": ".sarl",
+    "register_price": "2,749,000",
+    "renew_price": "2,749,000"
+  },
+  {
+    "tld": ".sc",
+    "register_price": "34,419,000",
+    "renew_price": "34,419,000"
+  },
+  {
+    "tld": ".school",
+    "register_price": "2,599,000",
+    "renew_price": "13,874,000"
+  },
+  {
+    "tld": ".schule",
+    "register_price": "5,198,000",
+    "renew_price": "10,511,000"
+  },
+  {
+    "tld": ".science",
+    "register_price": "4,986,000",
+    "renew_price": "5,186,000"
+  },
+  {
+    "tld": ".security",
+    "register_price": "794,640,000",
+    "renew_price": "794,640,000"
+  },
+  {
+    "tld": ".select",
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
+  },
+  {
+    "tld": ".services",
+    "register_price": "4,139,000",
+    "renew_price": "14,271,000"
+  },
+  {
+    "tld": ".shiksha",
+    "register_price": "5,198,000",
+    "renew_price": "16,565,000"
+  },
+  {
+    "tld": ".shoes",
+    "register_price": "10,203,000",
+    "renew_price": "23,544,000"
+  },
+  {
+    "tld": ".shopping",
+    "register_price": "3,831,000",
+    "renew_price": "9,726,000"
+  },
+  {
+    "tld": ".show",
+    "register_price": "3,831,000",
+    "renew_price": "15,976,000"
+  },
+  {
+    "tld": ".si",
+    "register_price": "10,400,000",
+    "renew_price": "10,400,000"
+  },
+  {
+    "tld": ".singles",
+    "register_price": "3,369,000",
+    "renew_price": "10,919,000"
+  },
+  {
+    "tld": ".ski",
+    "register_price": "10,203,000",
+    "renew_price": "24,217,000"
+  },
+  {
+    "tld": ".skin",
+    "register_price": "767,000",
+    "renew_price": "5,994,000"
+  },
+  {
+    "tld": ".soccer",
+    "register_price": "5,198,000",
+    "renew_price": "9,514,000"
+  },
+  {
+    "tld": ".social",
+    "register_price": "3,061,000",
+    "renew_price": "14,271,000"
+  },
+  {
+    "tld": ".software",
+    "register_price": "7,681,000",
+    "renew_price": "15,136,000"
+  },
+  {
+    "tld": ".solar",
+    "register_price": "2,599,000",
+    "renew_price": "23,544,000"
+  },
+  {
+    "tld": ".solutions",
+    "register_price": "1,521,000",
+    "renew_price": "12,613,000"
+  },
+  {
+    "tld": ".soy",
+    "register_price": "8,316,000",
+    "renew_price": "8,316,000"
+  },
+  {
+    "tld": ".space",
+    "register_price": "751,000",
+    "renew_price": "10,811,000"
+  },
+  {
+    "tld": ".srl",
+    "register_price": "10,330,000",
+    "renew_price": "10,330,000"
+  },
+  {
+    "tld": ".storage",
+    "register_price": "219,450,000",
+    "renew_price": "219,450,000"
+  },
+  {
+    "tld": ".stream",
+    "register_price": "2,291,000",
+    "renew_price": "2,623,000"
+  },
+  {
+    "tld": ".studio",
+    "register_price": "5,679,000",
+    "renew_price": "17,298,000"
+  },
+  {
+    "tld": ".study",
+    "register_price": "12,474,000",
+    "renew_price": "12,474,000"
+  },
+  {
+    "tld": ".style",
+    "register_price": "3,369,000",
+    "renew_price": "14,271,000"
+  },
+  {
+    "tld": ".supplies",
+    "register_price": "8,732,000",
+    "renew_price": "8,732,000"
+  },
+  {
+    "tld": ".supply",
+    "register_price": "9,148,000",
+    "renew_price": "9,148,000"
+  },
+  {
+    "tld": ".support",
+    "register_price": "3,061,000",
+    "renew_price": "9,946,000"
+  },
+  {
+    "tld": ".surf",
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
+  },
+  {
+    "tld": ".surgery",
+    "register_price": "19,000,000",
+    "renew_price": "19,000,000"
+  },
+  {
+    "tld": ".systems",
+    "register_price": "5,679,000",
+    "renew_price": "12,973,000"
+  },
+  {
+    "tld": ".tattoo",
+    "register_price": "12,405,000",
+    "renew_price": "12,405,000"
+  },
+  {
+    "tld": ".tax",
+    "register_price": "3,831,000",
+    "renew_price": "24,385,000"
+  },
+  {
+    "tld": ".taxi",
+    "register_price": "2,869,000",
+    "renew_price": "23,352,000"
+  },
+  {
+    "tld": ".team",
+    "register_price": "2,099,000",
+    "renew_price": "13,406,000"
+  },
+  {
+    "tld": ".technology",
+    "register_price": "4,601,000",
+    "renew_price": "10,511,000"
+  },
+  {
     "tld": ".tel",
-    "register_price": "3,252,000",
-    "renew_price": "3,252,000"
+    "register_price": "3,577,000",
+    "renew_price": "3,577,000"
   },
   {
     "tld": ".tennis",
-    "register_price": "18,375,000",
-    "renew_price": "18,375,000"
+    "register_price": "26,277,000",
+    "renew_price": "26,277,000"
   },
   {
     "tld": ".theater",
-    "register_price": "4,725,000",
-    "renew_price": "19,209,000"
+    "register_price": "5,198,000",
+    "renew_price": "21,130,000"
   },
   {
     "tld": ".theatre",
-    "register_price": "180,600,000",
-    "renew_price": "180,600,000"
+    "register_price": "198,660,000",
+    "renew_price": "198,660,000"
   },
   {
     "tld": ".tickets",
-    "register_price": "141,750,000",
-    "renew_price": "141,750,000"
+    "register_price": "155,925,000",
+    "renew_price": "155,925,000"
   },
   {
     "tld": ".tienda",
-    "register_price": "2,363,000",
-    "renew_price": "17,462,000"
+    "register_price": "2,599,000",
+    "renew_price": "19,208,000"
   },
   {
     "tld": ".tips",
-    "register_price": "3,483,000",
-    "renew_price": "9,119,000"
+    "register_price": "3,831,000",
+    "renew_price": "11,352,000"
   },
   {
     "tld": ".tires",
-    "register_price": "3,483,000",
-    "renew_price": "26,754,000"
+    "register_price": "3,831,000",
+    "renew_price": "32,793,000"
   },
   {
     "tld": ".today",
-    "register_price": "1,033,000",
-    "renew_price": "8,682,000"
+    "register_price": "1,136,000",
+    "renew_price": "10,811,000"
   },
   {
     "tld": ".tools",
-    "register_price": "4,183,000",
-    "renew_price": "10,899,000"
+    "register_price": "4,601,000",
+    "renew_price": "13,406,000"
   },
   {
     "tld": ".tours",
-    "register_price": "2,363,000",
-    "renew_price": "18,455,000"
+    "register_price": "2,599,000",
+    "renew_price": "23,352,000"
   },
   {
     "tld": ".town",
-    "register_price": "2,363,000",
-    "renew_price": "10,899,000"
+    "register_price": "2,599,000",
+    "renew_price": "13,406,000"
   },
   {
     "tld": ".toys",
-    "register_price": "4,725,000",
-    "renew_price": "19,110,000"
+    "register_price": "5,198,000",
+    "renew_price": "23,544,000"
   },
   {
     "tld": ".trade",
-    "register_price": "2,083,000",
-    "renew_price": "2,385,000"
+    "register_price": "2,291,000",
+    "renew_price": "2,623,000"
   },
   {
     "tld": ".training",
-    "register_price": "5,163,000",
-    "renew_price": "12,504,000"
+    "register_price": "5,679,000",
+    "renew_price": "15,136,000"
   },
   {
     "tld": ".travel",
-    "register_price": "6,983,000",
-    "renew_price": "47,830,000"
+    "register_price": "7,681,000",
+    "renew_price": "57,057,000"
   },
   {
     "tld": ".tube",
-    "register_price": "7,980,000",
-    "renew_price": "7,980,000"
+    "register_price": "8,778,000",
+    "renew_price": "8,778,000"
   },
   {
     "tld": ".tv",
-    "register_price": "9,030,000",
-    "renew_price": "9,030,000"
+    "register_price": "9,933,000",
+    "renew_price": "9,933,000"
   },
   {
     "tld": ".university",
-    "register_price": "4,725,000",
-    "renew_price": "18,455,000"
+    "register_price": "5,198,000",
+    "renew_price": "23,352,000"
   },
   {
     "tld": ".uno",
-    "register_price": "7,560,000",
-    "renew_price": "7,560,000"
+    "register_price": "8,316,000",
+    "renew_price": "8,316,000"
   },
   {
     "tld": ".vacations",
-    "register_price": "2,363,000",
-    "renew_price": "11,630,000"
+    "register_price": "2,599,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".ventures",
-    "register_price": "2,363,000",
-    "renew_price": "17,462,000"
+    "register_price": "2,599,000",
+    "renew_price": "21,442,000"
   },
   {
     "tld": ".vet",
-    "register_price": "11,750,000",
-    "renew_price": "11,750,000"
+    "register_price": "14,149,000",
+    "renew_price": "14,149,000"
   },
   {
     "tld": ".viajes",
-    "register_price": "12,716,000",
-    "renew_price": "12,716,000"
+    "register_price": "30,319,000",
+    "renew_price": "30,319,000"
   },
   {
     "tld": ".video",
-    "register_price": "3,483,000",
-    "renew_price": "10,691,000"
+    "register_price": "3,831,000",
+    "renew_price": "12,613,000"
   },
   {
     "tld": ".villas",
-    "register_price": "4,725,000",
-    "renew_price": "16,846,000"
+    "register_price": "5,198,000",
+    "renew_price": "21,442,000"
   },
   {
     "tld": ".vin",
-    "register_price": "2,783,000",
-    "renew_price": "17,462,000"
+    "register_price": "3,061,000",
+    "renew_price": "21,442,000"
   },
   {
     "tld": ".vip",
-    "register_price": "5,670,000",
-    "renew_price": "5,670,000"
+    "register_price": "6,237,000",
+    "renew_price": "6,237,000"
   },
   {
     "tld": ".vision",
-    "register_price": "2,363,000",
-    "renew_price": "13,661,000"
+    "register_price": "2,599,000",
+    "renew_price": "16,865,000"
   },
   {
     "tld": ".vote",
-    "register_price": "11,463,000",
-    "renew_price": "29,026,000"
+    "register_price": "12,609,000",
+    "renew_price": "35,604,000"
   },
   {
     "tld": ".voto",
-    "register_price": "4,725,000",
-    "renew_price": "22,408,000"
+    "register_price": "5,198,000",
+    "renew_price": "24,649,000"
   },
   {
     "tld": ".voyage",
-    "register_price": "2,363,000",
-    "renew_price": "17,243,000"
+    "register_price": "2,599,000",
+    "renew_price": "18,967,000"
   },
   {
     "tld": ".wales",
-    "register_price": "3,609,000",
-    "renew_price": "3,609,000"
+    "register_price": "4,012,000",
+    "renew_price": "4,012,000"
   },
   {
     "tld": ".watch",
-    "register_price": "1,208,000",
-    "renew_price": "13,039,000"
+    "register_price": "1,329,000",
+    "renew_price": "15,976,000"
   },
   {
     "tld": ".webcam",
-    "register_price": "4,533,000",
-    "renew_price": "4,714,000"
+    "register_price": "4,986,000",
+    "renew_price": "5,186,000"
   },
   {
     "tld": ".wedding",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
   },
   {
     "tld": ".wien",
-    "register_price": "13,734,000",
-    "renew_price": "13,734,000"
+    "register_price": "14,865,000",
+    "renew_price": "14,865,000"
   },
   {
     "tld": ".wiki",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
   },
   {
     "tld": ".win",
-    "register_price": "2,083,000",
-    "renew_price": "2,385,000"
+    "register_price": "2,291,000",
+    "renew_price": "2,623,000"
   },
   {
     "tld": ".work",
-    "register_price": "3,780,000",
-    "renew_price": "3,780,000"
+    "register_price": "4,158,000",
+    "renew_price": "4,158,000"
   },
   {
     "tld": ".works",
-    "register_price": "1,908,000",
-    "renew_price": "11,630,000"
+    "register_price": "2,099,000",
+    "renew_price": "14,271,000"
   },
   {
     "tld": ".world",
-    "register_price": "1,033,000",
-    "renew_price": "12,067,000"
+    "register_price": "1,136,000",
+    "renew_price": "15,136,000"
   },
   {
     "tld": ".ws",
-    "register_price": "9,009,000",
-    "renew_price": "9,009,000"
+    "register_price": "9,910,000",
+    "renew_price": "9,910,000"
   },
   {
     "tld": ".wtf",
-    "register_price": "1,033,000",
-    "renew_price": "10,899,000"
+    "register_price": "1,136,000",
+    "renew_price": "13,406,000"
   },
   {
     "tld": ".yachts",
-    "register_price": "697,000",
-    "renew_price": "5,450,000"
+    "register_price": "767,000",
+    "renew_price": "5,994,000"
   },
   {
     "tld": ".yoga",
-    "register_price": "9,450,000",
-    "renew_price": "9,450,000"
+    "register_price": "10,395,000",
+    "renew_price": "10,395,000"
   },
   {
     "tld": ".zone",
-    "register_price": "3,483,000",
-    "renew_price": "11,630,000"
+    "register_price": "3,831,000",
+    "renew_price": "14,271,000"
   }
 ]
