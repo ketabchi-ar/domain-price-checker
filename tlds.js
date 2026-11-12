@@ -56,8 +56,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".me",
-    "register_price": "3,231,000",
-    "renew_price": "6,711,000"
+    "register_price": "3,238,000",
+    "renew_price": "6,723,000"
   },
   {
     "tld": ".xyz",
@@ -251,8 +251,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".bayern",
-    "register_price": "11,635,000",
-    "renew_price": "11,635,000"
+    "register_price": "11,658,000",
+    "renew_price": "11,658,000"
   },
   {
     "tld": ".beauty",
@@ -266,13 +266,13 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".berlin",
-    "register_price": "19,135,000",
-    "renew_price": "19,135,000"
+    "register_price": "19,170,000",
+    "renew_price": "19,170,000"
   },
   {
     "tld": ".best",
-    "register_price": "7,369,000",
-    "renew_price": "7,369,000"
+    "register_price": "7,385,000",
+    "renew_price": "7,385,000"
   },
   {
     "tld": ".bible",
@@ -506,8 +506,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".co.no",
-    "register_price": "7,296,000",
-    "renew_price": "7,296,000"
+    "register_price": "7,312,000",
+    "renew_price": "7,312,000"
   },
   {
     "tld": ".coach",
@@ -531,8 +531,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".cologne",
-    "register_price": "11,481,000",
-    "renew_price": "11,481,000"
+    "register_price": "11,500,000",
+    "renew_price": "11,500,000"
   },
   {
     "tld": ".com.co",
@@ -1056,8 +1056,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".hamburg",
-    "register_price": "17,699,000",
-    "renew_price": "17,699,000"
+    "register_price": "17,734,000",
+    "renew_price": "17,734,000"
   },
   {
     "tld": ".haus",
@@ -1136,8 +1136,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".hu.net",
-    "register_price": "10,230,000",
-    "renew_price": "10,230,000"
+    "register_price": "10,249,000",
+    "renew_price": "10,249,000"
   },
   {
     "tld": ".icu",
@@ -1241,8 +1241,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".koeln",
-    "register_price": "11,481,000",
-    "renew_price": "11,481,000"
+    "register_price": "11,500,000",
+    "renew_price": "11,500,000"
   },
   {
     "tld": ".land",
@@ -1271,8 +1271,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".li",
-    "register_price": "2,761,000",
-    "renew_price": "2,761,000"
+    "register_price": "2,753,000",
+    "renew_price": "2,753,000"
   },
   {
     "tld": ".life",
@@ -1326,8 +1326,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".london",
-    "register_price": "11,778,000",
-    "renew_price": "11,778,000"
+    "register_price": "11,781,000",
+    "renew_price": "11,781,000"
   },
   {
     "tld": ".love",
@@ -1486,8 +1486,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".nrw",
-    "register_price": "14,892,000",
-    "renew_price": "14,892,000"
+    "register_price": "14,923,000",
+    "renew_price": "14,923,000"
   },
   {
     "tld": ".observer",
@@ -1506,8 +1506,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".or.at",
-    "register_price": "3,854,000",
-    "renew_price": "3,854,000"
+    "register_price": "3,862,000",
+    "renew_price": "3,862,000"
   },
   {
     "tld": ".organic",
@@ -1741,8 +1741,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".ruhr",
-    "register_price": "8,894,000",
-    "renew_price": "8,894,000"
+    "register_price": "8,913,000",
+    "renew_price": "8,913,000"
   },
   {
     "tld": ".run",
@@ -1751,8 +1751,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".saarland",
-    "register_price": "8,844,000",
-    "renew_price": "8,844,000"
+    "register_price": "8,859,000",
+    "renew_price": "8,859,000"
   },
   {
     "tld": ".sale",
@@ -2146,8 +2146,8 @@ window.IRANSERVER_TLDS = [
   },
   {
     "tld": ".wien",
-    "register_price": "14,892,000",
-    "renew_price": "14,892,000"
+    "register_price": "14,923,000",
+    "renew_price": "14,923,000"
   },
   {
     "tld": ".wiki",
