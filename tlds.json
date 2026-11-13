@@ -56,12 +56,12 @@
   },
   {
     "tld": ".me",
-    "register_price": "3,238,000",
-    "renew_price": "6,723,000"
+    "register_price": "3,200,000",
+    "renew_price": "6,643,000"
   },
   {
     "tld": ".xyz",
-    "register_price": "1,566,000",
+    "register_price": "786,000",
     "renew_price": "5,994,000"
   },
   {
@@ -251,8 +251,8 @@
   },
   {
     "tld": ".bayern",
-    "register_price": "11,658,000",
-    "renew_price": "11,658,000"
+    "register_price": "11,520,000",
+    "renew_price": "11,520,000"
   },
   {
     "tld": ".beauty",
@@ -266,13 +266,13 @@
   },
   {
     "tld": ".berlin",
-    "register_price": "19,170,000",
-    "renew_price": "19,170,000"
+    "register_price": "18,942,000",
+    "renew_price": "18,942,000"
   },
   {
     "tld": ".best",
-    "register_price": "7,385,000",
-    "renew_price": "7,385,000"
+    "register_price": "7,296,000",
+    "renew_price": "7,296,000"
   },
   {
     "tld": ".bible",
@@ -506,8 +506,8 @@
   },
   {
     "tld": ".co.no",
-    "register_price": "7,312,000",
-    "renew_price": "7,312,000"
+    "register_price": "7,223,000",
+    "renew_price": "7,223,000"
   },
   {
     "tld": ".coach",
@@ -531,8 +531,8 @@
   },
   {
     "tld": ".cologne",
-    "register_price": "11,500,000",
-    "renew_price": "11,500,000"
+    "register_price": "11,366,000",
+    "renew_price": "11,366,000"
   },
   {
     "tld": ".com.co",
@@ -631,8 +631,8 @@
   },
   {
     "tld": ".cymru",
-    "register_price": "4,020,000",
-    "renew_price": "4,020,000"
+    "register_price": "3,970,000",
+    "renew_price": "3,970,000"
   },
   {
     "tld": ".cyou",
@@ -1056,8 +1056,8 @@
   },
   {
     "tld": ".hamburg",
-    "register_price": "17,734,000",
-    "renew_price": "17,734,000"
+    "register_price": "17,522,000",
+    "renew_price": "17,522,000"
   },
   {
     "tld": ".haus",
@@ -1136,8 +1136,8 @@
   },
   {
     "tld": ".hu.net",
-    "register_price": "10,249,000",
-    "renew_price": "10,249,000"
+    "register_price": "10,130,000",
+    "renew_price": "10,130,000"
   },
   {
     "tld": ".icu",
@@ -1241,8 +1241,8 @@
   },
   {
     "tld": ".koeln",
-    "register_price": "11,500,000",
-    "renew_price": "11,500,000"
+    "register_price": "11,366,000",
+    "renew_price": "11,366,000"
   },
   {
     "tld": ".land",
@@ -1271,8 +1271,8 @@
   },
   {
     "tld": ".li",
-    "register_price": "2,753,000",
-    "renew_price": "2,753,000"
+    "register_price": "2,715,000",
+    "renew_price": "2,715,000"
   },
   {
     "tld": ".life",
@@ -1326,8 +1326,8 @@
   },
   {
     "tld": ".london",
-    "register_price": "11,781,000",
-    "renew_price": "11,781,000"
+    "register_price": "11,635,000",
+    "renew_price": "11,635,000"
   },
   {
     "tld": ".love",
@@ -1486,8 +1486,8 @@
   },
   {
     "tld": ".nrw",
-    "register_price": "14,923,000",
-    "renew_price": "14,923,000"
+    "register_price": "14,746,000",
+    "renew_price": "14,746,000"
   },
   {
     "tld": ".observer",
@@ -1506,8 +1506,8 @@
   },
   {
     "tld": ".or.at",
-    "register_price": "3,862,000",
-    "renew_price": "3,862,000"
+    "register_price": "3,816,000",
+    "renew_price": "3,816,000"
   },
   {
     "tld": ".organic",
@@ -1741,8 +1741,8 @@
   },
   {
     "tld": ".ruhr",
-    "register_price": "8,913,000",
-    "renew_price": "8,913,000"
+    "register_price": "8,805,000",
+    "renew_price": "8,805,000"
   },
   {
     "tld": ".run",
@@ -1751,8 +1751,8 @@
   },
   {
     "tld": ".saarland",
-    "register_price": "8,859,000",
-    "renew_price": "8,859,000"
+    "register_price": "8,755,000",
+    "renew_price": "8,755,000"
   },
   {
     "tld": ".sale",
@@ -2126,8 +2126,8 @@
   },
   {
     "tld": ".wales",
-    "register_price": "4,020,000",
-    "renew_price": "4,020,000"
+    "register_price": "3,970,000",
+    "renew_price": "3,970,000"
   },
   {
     "tld": ".watch",
@@ -2146,8 +2146,8 @@
   },
   {
     "tld": ".wien",
-    "register_price": "14,923,000",
-    "renew_price": "14,923,000"
+    "register_price": "14,746,000",
+    "renew_price": "14,746,000"
   },
   {
     "tld": ".wiki",
