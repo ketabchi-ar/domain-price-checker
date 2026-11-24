@@ -56,8 +56,8 @@
   },
   {
     "tld": ".me",
-    "register_price": "3,200,000",
-    "renew_price": "6,643,000"
+    "register_price": "3,157,000",
+    "renew_price": "6,559,000"
   },
   {
     "tld": ".xyz",
@@ -103,11 +103,6 @@
     "tld": ".top",
     "register_price": "995,000",
     "renew_price": "1,646,000"
-  },
-  {
-    "tld": ".cc",
-    "register_price": "3,181,000",
-    "renew_price": "3,181,000"
   },
   {
     "tld": ".pro",
@@ -251,8 +246,8 @@
   },
   {
     "tld": ".bayern",
-    "register_price": "11,520,000",
-    "renew_price": "11,520,000"
+    "register_price": "11,373,000",
+    "renew_price": "11,373,000"
   },
   {
     "tld": ".beauty",
@@ -266,13 +261,13 @@
   },
   {
     "tld": ".berlin",
-    "register_price": "18,942,000",
-    "renew_price": "18,942,000"
+    "register_price": "18,700,000",
+    "renew_price": "18,700,000"
   },
   {
     "tld": ".best",
-    "register_price": "7,296,000",
-    "renew_price": "7,296,000"
+    "register_price": "7,204,000",
+    "renew_price": "7,204,000"
   },
   {
     "tld": ".bible",
@@ -506,8 +501,8 @@
   },
   {
     "tld": ".co.no",
-    "register_price": "7,223,000",
-    "renew_price": "7,223,000"
+    "register_price": "7,131,000",
+    "renew_price": "7,131,000"
   },
   {
     "tld": ".coach",
@@ -531,8 +526,8 @@
   },
   {
     "tld": ".cologne",
-    "register_price": "11,366,000",
-    "renew_price": "11,366,000"
+    "register_price": "11,219,000",
+    "renew_price": "11,219,000"
   },
   {
     "tld": ".com.co",
@@ -573,11 +568,6 @@
     "tld": ".consulting",
     "register_price": "10,203,000",
     "renew_price": "17,694,000"
-  },
-  {
-    "tld": ".contact",
-    "register_price": "5,267,000",
-    "renew_price": "5,267,000"
   },
   {
     "tld": ".contractors",
@@ -631,8 +621,8 @@
   },
   {
     "tld": ".cymru",
-    "register_price": "3,970,000",
-    "renew_price": "3,970,000"
+    "register_price": "3,916,000",
+    "renew_price": "3,916,000"
   },
   {
     "tld": ".cyou",
@@ -895,11 +885,6 @@
     "renew_price": "41,349,000"
   },
   {
-    "tld": ".fm",
-    "register_price": "33,773,000",
-    "renew_price": "33,773,000"
-  },
-  {
     "tld": ".football",
     "register_price": "5,198,000",
     "renew_price": "9,514,000"
@@ -1056,8 +1041,8 @@
   },
   {
     "tld": ".hamburg",
-    "register_price": "17,522,000",
-    "renew_price": "17,522,000"
+    "register_price": "17,299,000",
+    "renew_price": "17,299,000"
   },
   {
     "tld": ".haus",
@@ -1130,14 +1115,9 @@
     "renew_price": "15,976,000"
   },
   {
-    "tld": ".how",
-    "register_price": "9,240,000",
-    "renew_price": "9,240,000"
-  },
-  {
     "tld": ".hu.net",
-    "register_price": "10,130,000",
-    "renew_price": "10,130,000"
+    "register_price": "9,999,000",
+    "renew_price": "9,999,000"
   },
   {
     "tld": ".icu",
@@ -1241,8 +1221,8 @@
   },
   {
     "tld": ".koeln",
-    "register_price": "11,366,000",
-    "renew_price": "11,366,000"
+    "register_price": "11,219,000",
+    "renew_price": "11,219,000"
   },
   {
     "tld": ".land",
@@ -1255,11 +1235,6 @@
     "renew_price": "23,701,000"
   },
   {
-    "tld": ".lc",
-    "register_price": "7,154,000",
-    "renew_price": "7,154,000"
-  },
-  {
     "tld": ".lease",
     "register_price": "3,831,000",
     "renew_price": "18,006,000"
@@ -1268,11 +1243,6 @@
     "tld": ".legal",
     "register_price": "2,599,000",
     "renew_price": "26,379,000"
-  },
-  {
-    "tld": ".li",
-    "register_price": "2,715,000",
-    "renew_price": "2,715,000"
   },
   {
     "tld": ".life",
@@ -1326,8 +1296,8 @@
   },
   {
     "tld": ".london",
-    "register_price": "11,635,000",
-    "renew_price": "11,635,000"
+    "register_price": "11,477,000",
+    "renew_price": "11,477,000"
   },
   {
     "tld": ".love",
@@ -1435,11 +1405,6 @@
     "renew_price": "23,352,000"
   },
   {
-    "tld": ".motorcycles",
-    "register_price": "767,000",
-    "renew_price": "5,994,000"
-  },
-  {
     "tld": ".movie",
     "register_price": "18,057,000",
     "renew_price": "126,126,000"
@@ -1486,8 +1451,8 @@
   },
   {
     "tld": ".nrw",
-    "register_price": "14,746,000",
-    "renew_price": "14,746,000"
+    "register_price": "14,557,000",
+    "renew_price": "14,557,000"
   },
   {
     "tld": ".observer",
@@ -1506,8 +1471,8 @@
   },
   {
     "tld": ".or.at",
-    "register_price": "3,816,000",
-    "renew_price": "3,816,000"
+    "register_price": "3,766,000",
+    "renew_price": "3,766,000"
   },
   {
     "tld": ".organic",
@@ -1635,11 +1600,6 @@
     "renew_price": "14,553,000"
   },
   {
-    "tld": ".qpon",
-    "register_price": "1,136,000",
-    "renew_price": "4,269,000"
-  },
-  {
     "tld": ".quest",
     "register_price": "767,000",
     "renew_price": "5,994,000"
@@ -1741,8 +1701,8 @@
   },
   {
     "tld": ".ruhr",
-    "register_price": "8,805,000",
-    "renew_price": "8,805,000"
+    "register_price": "8,694,000",
+    "renew_price": "8,694,000"
   },
   {
     "tld": ".run",
@@ -1751,8 +1711,8 @@
   },
   {
     "tld": ".saarland",
-    "register_price": "8,755,000",
-    "renew_price": "8,755,000"
+    "register_price": "8,644,000",
+    "renew_price": "8,644,000"
   },
   {
     "tld": ".sale",
@@ -1868,11 +1828,6 @@
     "tld": ".solutions",
     "register_price": "1,521,000",
     "renew_price": "12,613,000"
-  },
-  {
-    "tld": ".soy",
-    "register_price": "8,316,000",
-    "renew_price": "8,316,000"
   },
   {
     "tld": ".space",
@@ -2126,8 +2081,8 @@
   },
   {
     "tld": ".wales",
-    "register_price": "3,970,000",
-    "renew_price": "3,970,000"
+    "register_price": "3,916,000",
+    "renew_price": "3,916,000"
   },
   {
     "tld": ".watch",
@@ -2146,8 +2101,8 @@
   },
   {
     "tld": ".wien",
-    "register_price": "14,746,000",
-    "renew_price": "14,746,000"
+    "register_price": "14,557,000",
+    "renew_price": "14,557,000"
   },
   {
     "tld": ".wiki",
